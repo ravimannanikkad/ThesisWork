@@ -1,7 +1,7 @@
 Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2016.3 (lin64) Build 1682563 Mon Oct 10 19:07:26 MDT 2016
-| Date         : Wed Mar 29 19:00:55 2017
+| Date         : Thu Mar 30 15:54:58 2017
 | Host         : ravi-ThinkPad-E560 running 64-bit Ubuntu 14.04.5 LTS
 | Command      : report_utilization -file design_1_wrapper_utilization_synth.rpt -pb design_1_wrapper_utilization_synth.pb
 | Design       : design_1_wrapper
@@ -106,24 +106,24 @@ Table of Contents
 5. IO and GT Specific
 ---------------------
 
-+-----------------------------+------+-------+-----------+-------+
-|          Site Type          | Used | Fixed | Available | Util% |
-+-----------------------------+------+-------+-----------+-------+
-| Bonded IOB                  |   13 |     0 |       100 | 13.00 |
-| Bonded IPADs                |    0 |     0 |         2 |  0.00 |
-| Bonded IOPADs               |    0 |     0 |       130 |  0.00 |
-| PHY_CONTROL                 |    0 |     0 |         2 |  0.00 |
-| PHASER_REF                  |    0 |     0 |         2 |  0.00 |
-| OUT_FIFO                    |    0 |     0 |         8 |  0.00 |
-| IN_FIFO                     |    0 |     0 |         8 |  0.00 |
-| IDELAYCTRL                  |    0 |     0 |         2 |  0.00 |
-| IBUFDS                      |    0 |     0 |        96 |  0.00 |
-| PHASER_OUT/PHASER_OUT_PHY   |    0 |     0 |         8 |  0.00 |
-| PHASER_IN/PHASER_IN_PHY     |    0 |     0 |         8 |  0.00 |
-| IDELAYE2/IDELAYE2_FINEDELAY |    0 |     0 |       100 |  0.00 |
-| ILOGIC                      |    0 |     0 |       100 |  0.00 |
-| OLOGIC                      |    0 |     0 |       100 |  0.00 |
-+-----------------------------+------+-------+-----------+-------+
++-----------------------------+------+-------+-----------+--------+
+|          Site Type          | Used | Fixed | Available |  Util% |
++-----------------------------+------+-------+-----------+--------+
+| Bonded IOB                  |  880 |     0 |       100 | 880.00 |
+| Bonded IPADs                |    0 |     0 |         2 |   0.00 |
+| Bonded IOPADs               |    0 |     0 |       130 |   0.00 |
+| PHY_CONTROL                 |    0 |     0 |         2 |   0.00 |
+| PHASER_REF                  |    0 |     0 |         2 |   0.00 |
+| OUT_FIFO                    |    0 |     0 |         8 |   0.00 |
+| IN_FIFO                     |    0 |     0 |         8 |   0.00 |
+| IDELAYCTRL                  |    0 |     0 |         2 |   0.00 |
+| IBUFDS                      |    0 |     0 |        96 |   0.00 |
+| PHASER_OUT/PHASER_OUT_PHY   |    0 |     0 |         8 |   0.00 |
+| PHASER_IN/PHASER_IN_PHY     |    0 |     0 |         8 |   0.00 |
+| IDELAYE2/IDELAYE2_FINEDELAY |    0 |     0 |       100 |   0.00 |
+| ILOGIC                      |    0 |     0 |       100 |   0.00 |
+| OLOGIC                      |    0 |     0 |       100 |   0.00 |
++-----------------------------+------+-------+-----------+--------+
 
 
 6. Clocking
@@ -165,9 +165,9 @@ Table of Contents
 +----------+------+---------------------+
 | Ref Name | Used | Functional Category |
 +----------+------+---------------------+
-| IBUF     |   10 |                  IO |
+| OBUF     |  867 |                  IO |
+| IBUF     |   13 |                  IO |
 | OBUFT    |    6 |                  IO |
-| OBUF     |    3 |                  IO |
 +----------+------+---------------------+
 
 
@@ -177,42 +177,98 @@ Table of Contents
 +----------------------------------+------+
 |             Ref Name             | Used |
 +----------------------------------+------+
-| design_1_xbar_6                  |    1 |
-| design_1_xbar_5                  |    1 |
+| design_1_xbar_3                  |    1 |
+| design_1_xbar_2                  |    1 |
 | design_1_xbar_1                  |    1 |
-| design_1_rst_clk_wiz_0_100M_0    |    1 |
-| design_1_microblaze_2_xlconcat_0 |    1 |
-| design_1_microblaze_2_axi_intc_0 |    1 |
-| design_1_microblaze_1_xlconcat_1 |    1 |
-| design_1_microblaze_1_axi_intc_1 |    1 |
-| design_1_microblaze_1_0          |    1 |
+| design_1_rst_clk_wiz_0_100M_2    |    1 |
+| design_1_rst_clk_wiz_0_100M_0_2  |    1 |
+| design_1_rst_clk_wiz_0_100M_0_1  |    1 |
+| design_1_processing_system7_0_0  |    1 |
+| design_1_microblaze_0_xlconcat_3 |    1 |
+| design_1_microblaze_0_xlconcat_2 |    1 |
 | design_1_microblaze_0_xlconcat_1 |    1 |
+| design_1_microblaze_0_axi_intc_3 |    1 |
+| design_1_microblaze_0_axi_intc_2 |    1 |
 | design_1_microblaze_0_axi_intc_1 |    1 |
-| design_1_microblaze_0_3          |    1 |
+| design_1_microblaze_0_4          |    1 |
+| design_1_microblaze_0_2          |    1 |
 | design_1_microblaze_0_0          |    1 |
-| design_1_mdm_1_1                 |    1 |
-| design_1_lmb_bram_6              |    1 |
-| design_1_lmb_bram_5              |    1 |
+| design_1_mdm_0_4                 |    1 |
+| design_1_mdm_0_3                 |    1 |
+| design_1_mdm_0_0                 |    1 |
+| design_1_lmb_bram_3              |    1 |
+| design_1_lmb_bram_2              |    1 |
 | design_1_lmb_bram_1              |    1 |
-| design_1_ilmb_v10_6              |    1 |
-| design_1_ilmb_v10_5              |    1 |
+| design_1_ilmb_v10_3              |    1 |
+| design_1_ilmb_v10_2              |    1 |
 | design_1_ilmb_v10_1              |    1 |
-| design_1_ilmb_bram_if_cntlr_6    |    1 |
-| design_1_ilmb_bram_if_cntlr_5    |    1 |
+| design_1_ilmb_bram_if_cntlr_3    |    1 |
+| design_1_ilmb_bram_if_cntlr_2    |    1 |
 | design_1_ilmb_bram_if_cntlr_1    |    1 |
-| design_1_dlmb_v10_6              |    1 |
-| design_1_dlmb_v10_5              |    1 |
+| design_1_dlmb_v10_3              |    1 |
+| design_1_dlmb_v10_2              |    1 |
 | design_1_dlmb_v10_1              |    1 |
-| design_1_dlmb_bram_if_cntlr_6    |    1 |
-| design_1_dlmb_bram_if_cntlr_5    |    1 |
+| design_1_dlmb_bram_if_cntlr_3    |    1 |
+| design_1_dlmb_bram_if_cntlr_2    |    1 |
 | design_1_dlmb_bram_if_cntlr_1    |    1 |
 | design_1_clk_wiz_0_0             |    1 |
-| design_1_axi_uartlite_0_4        |    1 |
-| design_1_axi_uartlite_0_3        |    1 |
+| design_1_axi_uartlite_0_5        |    1 |
+| design_1_axi_uartlite_0_2        |    1 |
 | design_1_axi_uartlite_0_0        |    1 |
-| design_1_axi_iic_0_4             |    1 |
-| design_1_axi_iic_0_3             |    1 |
+| design_1_axi_timer_0_2           |    1 |
+| design_1_axi_timer_0_1           |    1 |
+| design_1_axi_timer_0_0           |    1 |
+| design_1_axi_iic_0_5             |    1 |
+| design_1_axi_iic_0_2             |    1 |
 | design_1_axi_iic_0_0             |    1 |
+| design_1_axi_gpio_4_2            |    1 |
+| design_1_axi_gpio_4_1            |    1 |
+| design_1_axi_gpio_3_2            |    1 |
+| design_1_axi_gpio_3_1            |    1 |
+| design_1_axi_gpio_2_2            |    1 |
+| design_1_axi_gpio_2_1            |    1 |
+| design_1_axi_gpio_1_3            |    1 |
+| design_1_axi_gpio_1_2            |    1 |
+| design_1_axi_gpio_0_9            |    1 |
+| design_1_axi_gpio_0_8            |    1 |
+| design_1_axi_gpio_0_7            |    1 |
+| design_1_axi_gpio_0_6            |    1 |
+| design_1_axi_gpio_0_12           |    1 |
+| design_1_axi_gpio_0_11           |    1 |
+| design_1_axi_gpio_0_0            |    1 |
+| design_1_auto_us_2               |    1 |
+| design_1_auto_us_1               |    1 |
+| design_1_auto_us_0               |    1 |
+| design_1_auto_pc_2               |    1 |
+| design_1_auto_pc_1               |    1 |
+| design_1_auto_pc_0               |    1 |
+| design_1_auto_ds_9               |    1 |
+| design_1_auto_ds_8               |    1 |
+| design_1_auto_ds_7               |    1 |
+| design_1_auto_ds_6               |    1 |
+| design_1_auto_ds_5               |    1 |
+| design_1_auto_ds_4               |    1 |
+| design_1_auto_ds_3               |    1 |
+| design_1_auto_ds_26              |    1 |
+| design_1_auto_ds_25              |    1 |
+| design_1_auto_ds_24              |    1 |
+| design_1_auto_ds_23              |    1 |
+| design_1_auto_ds_22              |    1 |
+| design_1_auto_ds_21              |    1 |
+| design_1_auto_ds_20              |    1 |
+| design_1_auto_ds_2               |    1 |
+| design_1_auto_ds_19              |    1 |
+| design_1_auto_ds_18              |    1 |
+| design_1_auto_ds_17              |    1 |
+| design_1_auto_ds_16              |    1 |
+| design_1_auto_ds_15              |    1 |
+| design_1_auto_ds_14              |    1 |
+| design_1_auto_ds_13              |    1 |
+| design_1_auto_ds_12              |    1 |
+| design_1_auto_ds_11              |    1 |
+| design_1_auto_ds_10              |    1 |
+| design_1_auto_ds_1               |    1 |
+| design_1_auto_ds_0               |    1 |
 +----------------------------------+------+
 
 

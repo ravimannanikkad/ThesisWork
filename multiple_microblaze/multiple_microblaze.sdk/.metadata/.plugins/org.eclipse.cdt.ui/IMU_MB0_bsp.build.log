@@ -1,4 +1,4 @@
-19:06:05 **** Build of project IMU_MB0_bsp ****
+13:24:06 **** Build of project IMU_MB0_bsp ****
 make -k all 
 Running Make include in MB_Sys0_microblaze_0/libsrc/bram_v4_1/src
 make -C MB_Sys0_microblaze_0/libsrc/bram_v4_1/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
@@ -33,5 +33,5 @@ make -C MB_Sys0_microblaze_0/libsrc/uartlite_v3_2/src -s libs  "SHELL=/bin/sh" "
 Compiling uartlite
 Finished building libraries
 
-19:06:07 Build Finished (took 2s.606ms)
+13:24:09 Build Finished (took 2s.289ms)
 

@@ -11,16 +11,16 @@ set_param project.singleFileAddWarning.threshold 0
 set_param project.compositeFile.enableAutoGeneration 0
 set_param synth.vivado.isSynthRun true
 set_msg_config -source 4 -id {IP_Flow 19-2162} -severity warning -new_severity info
-set_property webtalk.parent_dir /home/ravi/vivado_projects/multiple_microblaze/multiple_microblaze.cache/wt [current_project]
-set_property parent.project_path /home/ravi/vivado_projects/multiple_microblaze/multiple_microblaze.xpr [current_project]
+set_property webtalk.parent_dir /home/ravi/ThesisWork/multiple_microblaze/multiple_microblaze.cache/wt [current_project]
+set_property parent.project_path /home/ravi/ThesisWork/multiple_microblaze/multiple_microblaze.xpr [current_project]
 set_property XPM_LIBRARIES {XPM_CDC XPM_MEMORY} [current_project]
 set_property default_lib xil_defaultlib [current_project]
-set_property target_language Verilog [current_project]
+set_property target_language VHDL [current_project]
 set_property board_part digilentinc.com:zybo:part0:1.0 [current_project]
-set_property ip_output_repo /home/ravi/vivado_projects/multiple_microblaze/multiple_microblaze.cache/ip [current_project]
+set_property ip_output_repo /home/ravi/ThesisWork/multiple_microblaze/multiple_microblaze.cache/ip [current_project]
 set_property ip_cache_permissions {read write} [current_project]
-read_ip -quiet /home/ravi/vivado_projects/multiple_microblaze/multiple_microblaze.srcs/sources_1/bd/design_1/ip/design_1_xbar_1/design_1_xbar_1.xci
-set_property is_locked true [get_files /home/ravi/vivado_projects/multiple_microblaze/multiple_microblaze.srcs/sources_1/bd/design_1/ip/design_1_xbar_1/design_1_xbar_1.xci]
+read_ip -quiet /home/ravi/ThesisWork/multiple_microblaze/multiple_microblaze.srcs/sources_1/bd/design_1/ip/design_1_xbar_1/design_1_xbar_1.xci
+set_property is_locked true [get_files /home/ravi/ThesisWork/multiple_microblaze/multiple_microblaze.srcs/sources_1/bd/design_1/ip/design_1_xbar_1/design_1_xbar_1.xci]
 
 foreach dcp [get_files -quiet -all *.dcp] {
   set_property used_in_implementation false $dcp
@@ -28,7 +28,7 @@ foreach dcp [get_files -quiet -all *.dcp] {
 read_xdc dont_touch.xdc
 set_property used_in_implementation false [get_files dont_touch.xdc]
 
-set cached_ip [config_ip_cache -export -no_bom -use_project_ipc -dir /home/ravi/vivado_projects/multiple_microblaze/multiple_microblaze.runs/design_1_xbar_1_synth_1 -new_name design_1_xbar_1 -ip [get_ips design_1_xbar_1]]
+set cached_ip [config_ip_cache -export -no_bom -use_project_ipc -dir /home/ravi/ThesisWork/multiple_microblaze/multiple_microblaze.runs/design_1_xbar_1_synth_1 -new_name design_1_xbar_1 -ip [get_ips design_1_xbar_1]]
 
 if { $cached_ip eq {} } {
 
@@ -63,32 +63,32 @@ write_checkpoint -force -noxdef design_1_xbar_1.dcp
 catch { report_utilization -file design_1_xbar_1_utilization_synth.rpt -pb design_1_xbar_1_utilization_synth.pb }
 
 if { [catch {
-  file copy -force /home/ravi/vivado_projects/multiple_microblaze/multiple_microblaze.runs/design_1_xbar_1_synth_1/design_1_xbar_1.dcp /home/ravi/vivado_projects/multiple_microblaze/multiple_microblaze.srcs/sources_1/bd/design_1/ip/design_1_xbar_1/design_1_xbar_1.dcp
+  file copy -force /home/ravi/ThesisWork/multiple_microblaze/multiple_microblaze.runs/design_1_xbar_1_synth_1/design_1_xbar_1.dcp /home/ravi/ThesisWork/multiple_microblaze/multiple_microblaze.srcs/sources_1/bd/design_1/ip/design_1_xbar_1/design_1_xbar_1.dcp
 } _RESULT ] } { 
   send_msg_id runtcl-3 error "ERROR: Unable to successfully create or copy the sub-design checkpoint file."
   error "ERROR: Unable to successfully create or copy the sub-design checkpoint file."
 }
 
 if { [catch {
-  write_verilog -force -mode synth_stub /home/ravi/vivado_projects/multiple_microblaze/multiple_microblaze.srcs/sources_1/bd/design_1/ip/design_1_xbar_1/design_1_xbar_1_stub.v
+  write_verilog -force -mode synth_stub /home/ravi/ThesisWork/multiple_microblaze/multiple_microblaze.srcs/sources_1/bd/design_1/ip/design_1_xbar_1/design_1_xbar_1_stub.v
 } _RESULT ] } { 
   puts "CRITICAL WARNING: Unable to successfully create a Verilog synthesis stub for the sub-design. This may lead to errors in top level synthesis of the design. Error reported: $_RESULT"
 }
 
 if { [catch {
-  write_vhdl -force -mode synth_stub /home/ravi/vivado_projects/multiple_microblaze/multiple_microblaze.srcs/sources_1/bd/design_1/ip/design_1_xbar_1/design_1_xbar_1_stub.vhdl
+  write_vhdl -force -mode synth_stub /home/ravi/ThesisWork/multiple_microblaze/multiple_microblaze.srcs/sources_1/bd/design_1/ip/design_1_xbar_1/design_1_xbar_1_stub.vhdl
 } _RESULT ] } { 
   puts "CRITICAL WARNING: Unable to successfully create a VHDL synthesis stub for the sub-design. This may lead to errors in top level synthesis of the design. Error reported: $_RESULT"
 }
 
 if { [catch {
-  write_verilog -force -mode funcsim /home/ravi/vivado_projects/multiple_microblaze/multiple_microblaze.srcs/sources_1/bd/design_1/ip/design_1_xbar_1/design_1_xbar_1_sim_netlist.v
+  write_verilog -force -mode funcsim /home/ravi/ThesisWork/multiple_microblaze/multiple_microblaze.srcs/sources_1/bd/design_1/ip/design_1_xbar_1/design_1_xbar_1_sim_netlist.v
 } _RESULT ] } { 
   puts "CRITICAL WARNING: Unable to successfully create the Verilog functional simulation sub-design file. Post-Synthesis Functional Simulation with this file may not be possible or may give incorrect results. Error reported: $_RESULT"
 }
 
 if { [catch {
-  write_vhdl -force -mode funcsim /home/ravi/vivado_projects/multiple_microblaze/multiple_microblaze.srcs/sources_1/bd/design_1/ip/design_1_xbar_1/design_1_xbar_1_sim_netlist.vhdl
+  write_vhdl -force -mode funcsim /home/ravi/ThesisWork/multiple_microblaze/multiple_microblaze.srcs/sources_1/bd/design_1/ip/design_1_xbar_1/design_1_xbar_1_sim_netlist.vhdl
 } _RESULT ] } { 
   puts "CRITICAL WARNING: Unable to successfully create the VHDL functional simulation sub-design file. Post-Synthesis Functional Simulation with this file may not be possible or may give incorrect results. Error reported: $_RESULT"
 }
@@ -98,46 +98,46 @@ if { [catch {
 
 
 if { [catch {
-  file copy -force /home/ravi/vivado_projects/multiple_microblaze/multiple_microblaze.runs/design_1_xbar_1_synth_1/design_1_xbar_1.dcp /home/ravi/vivado_projects/multiple_microblaze/multiple_microblaze.srcs/sources_1/bd/design_1/ip/design_1_xbar_1/design_1_xbar_1.dcp
+  file copy -force /home/ravi/ThesisWork/multiple_microblaze/multiple_microblaze.runs/design_1_xbar_1_synth_1/design_1_xbar_1.dcp /home/ravi/ThesisWork/multiple_microblaze/multiple_microblaze.srcs/sources_1/bd/design_1/ip/design_1_xbar_1/design_1_xbar_1.dcp
 } _RESULT ] } { 
   send_msg_id runtcl-3 error "ERROR: Unable to successfully create or copy the sub-design checkpoint file."
   error "ERROR: Unable to successfully create or copy the sub-design checkpoint file."
 }
 
 if { [catch {
-  file rename -force /home/ravi/vivado_projects/multiple_microblaze/multiple_microblaze.runs/design_1_xbar_1_synth_1/design_1_xbar_1_stub.v /home/ravi/vivado_projects/multiple_microblaze/multiple_microblaze.srcs/sources_1/bd/design_1/ip/design_1_xbar_1/design_1_xbar_1_stub.v
+  file rename -force /home/ravi/ThesisWork/multiple_microblaze/multiple_microblaze.runs/design_1_xbar_1_synth_1/design_1_xbar_1_stub.v /home/ravi/ThesisWork/multiple_microblaze/multiple_microblaze.srcs/sources_1/bd/design_1/ip/design_1_xbar_1/design_1_xbar_1_stub.v
 } _RESULT ] } { 
   puts "CRITICAL WARNING: Unable to successfully create a Verilog synthesis stub for the sub-design. This may lead to errors in top level synthesis of the design. Error reported: $_RESULT"
 }
 
 if { [catch {
-  file rename -force /home/ravi/vivado_projects/multiple_microblaze/multiple_microblaze.runs/design_1_xbar_1_synth_1/design_1_xbar_1_stub.vhdl /home/ravi/vivado_projects/multiple_microblaze/multiple_microblaze.srcs/sources_1/bd/design_1/ip/design_1_xbar_1/design_1_xbar_1_stub.vhdl
+  file rename -force /home/ravi/ThesisWork/multiple_microblaze/multiple_microblaze.runs/design_1_xbar_1_synth_1/design_1_xbar_1_stub.vhdl /home/ravi/ThesisWork/multiple_microblaze/multiple_microblaze.srcs/sources_1/bd/design_1/ip/design_1_xbar_1/design_1_xbar_1_stub.vhdl
 } _RESULT ] } { 
   puts "CRITICAL WARNING: Unable to successfully create a VHDL synthesis stub for the sub-design. This may lead to errors in top level synthesis of the design. Error reported: $_RESULT"
 }
 
 if { [catch {
-  file rename -force /home/ravi/vivado_projects/multiple_microblaze/multiple_microblaze.runs/design_1_xbar_1_synth_1/design_1_xbar_1_sim_netlist.v /home/ravi/vivado_projects/multiple_microblaze/multiple_microblaze.srcs/sources_1/bd/design_1/ip/design_1_xbar_1/design_1_xbar_1_sim_netlist.v
+  file rename -force /home/ravi/ThesisWork/multiple_microblaze/multiple_microblaze.runs/design_1_xbar_1_synth_1/design_1_xbar_1_sim_netlist.v /home/ravi/ThesisWork/multiple_microblaze/multiple_microblaze.srcs/sources_1/bd/design_1/ip/design_1_xbar_1/design_1_xbar_1_sim_netlist.v
 } _RESULT ] } { 
   puts "CRITICAL WARNING: Unable to successfully create the Verilog functional simulation sub-design file. Post-Synthesis Functional Simulation with this file may not be possible or may give incorrect results. Error reported: $_RESULT"
 }
 
 if { [catch {
-  file rename -force /home/ravi/vivado_projects/multiple_microblaze/multiple_microblaze.runs/design_1_xbar_1_synth_1/design_1_xbar_1_sim_netlist.vhdl /home/ravi/vivado_projects/multiple_microblaze/multiple_microblaze.srcs/sources_1/bd/design_1/ip/design_1_xbar_1/design_1_xbar_1_sim_netlist.vhdl
+  file rename -force /home/ravi/ThesisWork/multiple_microblaze/multiple_microblaze.runs/design_1_xbar_1_synth_1/design_1_xbar_1_sim_netlist.vhdl /home/ravi/ThesisWork/multiple_microblaze/multiple_microblaze.srcs/sources_1/bd/design_1/ip/design_1_xbar_1/design_1_xbar_1_sim_netlist.vhdl
 } _RESULT ] } { 
   puts "CRITICAL WARNING: Unable to successfully create the VHDL functional simulation sub-design file. Post-Synthesis Functional Simulation with this file may not be possible or may give incorrect results. Error reported: $_RESULT"
 }
 
 }; # end if cached_ip 
 
-if {[file isdir /home/ravi/vivado_projects/multiple_microblaze/multiple_microblaze.ip_user_files/ip/design_1_xbar_1]} {
+if {[file isdir /home/ravi/ThesisWork/multiple_microblaze/multiple_microblaze.ip_user_files/ip/design_1_xbar_1]} {
   catch { 
-    file copy -force /home/ravi/vivado_projects/multiple_microblaze/multiple_microblaze.srcs/sources_1/bd/design_1/ip/design_1_xbar_1/design_1_xbar_1_stub.v /home/ravi/vivado_projects/multiple_microblaze/multiple_microblaze.ip_user_files/ip/design_1_xbar_1
+    file copy -force /home/ravi/ThesisWork/multiple_microblaze/multiple_microblaze.srcs/sources_1/bd/design_1/ip/design_1_xbar_1/design_1_xbar_1_stub.v /home/ravi/ThesisWork/multiple_microblaze/multiple_microblaze.ip_user_files/ip/design_1_xbar_1
   }
 }
 
-if {[file isdir /home/ravi/vivado_projects/multiple_microblaze/multiple_microblaze.ip_user_files/ip/design_1_xbar_1]} {
+if {[file isdir /home/ravi/ThesisWork/multiple_microblaze/multiple_microblaze.ip_user_files/ip/design_1_xbar_1]} {
   catch { 
-    file copy -force /home/ravi/vivado_projects/multiple_microblaze/multiple_microblaze.srcs/sources_1/bd/design_1/ip/design_1_xbar_1/design_1_xbar_1_stub.vhdl /home/ravi/vivado_projects/multiple_microblaze/multiple_microblaze.ip_user_files/ip/design_1_xbar_1
+    file copy -force /home/ravi/ThesisWork/multiple_microblaze/multiple_microblaze.srcs/sources_1/bd/design_1/ip/design_1_xbar_1/design_1_xbar_1_stub.vhdl /home/ravi/ThesisWork/multiple_microblaze/multiple_microblaze.ip_user_files/ip/design_1_xbar_1
   }
 }

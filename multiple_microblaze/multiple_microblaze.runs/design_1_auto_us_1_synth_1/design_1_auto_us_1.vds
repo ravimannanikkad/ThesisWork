@@ -1,0 +1,53 @@
+#-----------------------------------------------------------
+# Vivado v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:26 MDT 2016
+# IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+# Start of session at: Thu Mar 30 15:48:44 2017
+# Process ID: 1599
+# Current directory: /home/ravi/ThesisWork/multiple_microblaze/multiple_microblaze.runs/design_1_auto_us_1_synth_1
+# Command line: vivado -log design_1_auto_us_1.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_auto_us_1.tcl
+# Log file: /home/ravi/ThesisWork/multiple_microblaze/multiple_microblaze.runs/design_1_auto_us_1_synth_1/design_1_auto_us_1.vds
+# Journal file: /home/ravi/ThesisWork/multiple_microblaze/multiple_microblaze.runs/design_1_auto_us_1_synth_1/vivado.jou
+#-----------------------------------------------------------
+source design_1_auto_us_1.tcl -notrace
+Starting RTL Elaboration : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 1104.285 ; gain = 188.301 ; free physical = 3699 ; free virtual = 12544
+INFO: [Synth 8-638] synthesizing module 'design_1_auto_us_1' [/home/ravi/ThesisWork/multiple_microblaze/multiple_microblaze.srcs/sources_1/bd/design_1/ip/design_1_auto_us_1/synth/design_1_auto_us_1.v:58]
+INFO: [Synth 8-638] synthesizing module 'axi_dwidth_converter_v2_1_10_top' [/home/ravi/ThesisWork/multiple_microblaze/multiple_microblaze.srcs/sources_1/bd/design_1/ipshared/4a86/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:14452]
+INFO: [Synth 8-638] synthesizing module 'axi_dwidth_converter_v2_1_10_axi4lite_upsizer' [/home/ravi/ThesisWork/multiple_microblaze/multiple_microblaze.srcs/sources_1/bd/design_1/ipshared/4a86/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:3334]
+INFO: [Synth 8-256] done synthesizing module 'axi_dwidth_converter_v2_1_10_axi4lite_upsizer' (1#1) [/home/ravi/ThesisWork/multiple_microblaze/multiple_microblaze.srcs/sources_1/bd/design_1/ipshared/4a86/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:3334]
+INFO: [Synth 8-256] done synthesizing module 'axi_dwidth_converter_v2_1_10_top' (2#1) [/home/ravi/ThesisWork/multiple_microblaze/multiple_microblaze.srcs/sources_1/bd/design_1/ipshared/4a86/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:14452]
+INFO: [Synth 8-256] done synthesizing module 'design_1_auto_us_1' (3#1) [/home/ravi/ThesisWork/multiple_microblaze/multiple_microblaze.srcs/sources_1/bd/design_1/ip/design_1_auto_us_1/synth/design_1_auto_us_1.v:58]
+Finished RTL Elaboration : Time (s): cpu = 00:01:35 ; elapsed = 00:01:43 . Memory (MB): peak = 1225.758 ; gain = 309.773 ; free physical = 4156 ; free virtual = 13007
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:01:35 ; elapsed = 00:01:43 . Memory (MB): peak = 1225.758 ; gain = 309.773 ; free physical = 4156 ; free virtual = 13007
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.02 . Memory (MB): peak = 1461.617 ; gain = 0.004 ; free physical = 4071 ; free virtual = 12922
+Finished Constraint Validation : Time (s): cpu = 00:01:43 ; elapsed = 00:01:51 . Memory (MB): peak = 1461.617 ; gain = 545.633 ; free physical = 4070 ; free virtual = 12921
+Finished Loading Part and Timing Information : Time (s): cpu = 00:01:43 ; elapsed = 00:01:51 . Memory (MB): peak = 1461.617 ; gain = 545.633 ; free physical = 4070 ; free virtual = 12921
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:01:43 ; elapsed = 00:01:51 . Memory (MB): peak = 1461.617 ; gain = 545.633 ; free physical = 4070 ; free virtual = 12921
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:01:43 ; elapsed = 00:01:51 . Memory (MB): peak = 1461.617 ; gain = 545.633 ; free physical = 4068 ; free virtual = 12919
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:01:43 ; elapsed = 00:01:52 . Memory (MB): peak = 1461.621 ; gain = 545.637 ; free physical = 4045 ; free virtual = 12896
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:50 ; elapsed = 00:01:59 . Memory (MB): peak = 1461.621 ; gain = 545.637 ; free physical = 4013 ; free virtual = 12865
+Finished Timing Optimization : Time (s): cpu = 00:01:50 ; elapsed = 00:01:59 . Memory (MB): peak = 1461.621 ; gain = 545.637 ; free physical = 4004 ; free virtual = 12856
+Finished Technology Mapping : Time (s): cpu = 00:01:50 ; elapsed = 00:01:59 . Memory (MB): peak = 1461.621 ; gain = 545.637 ; free physical = 3995 ; free virtual = 12847
+Finished IO Insertion : Time (s): cpu = 00:01:50 ; elapsed = 00:01:59 . Memory (MB): peak = 1461.621 ; gain = 545.637 ; free physical = 3995 ; free virtual = 12847
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:50 ; elapsed = 00:01:59 . Memory (MB): peak = 1461.621 ; gain = 545.637 ; free physical = 3995 ; free virtual = 12847
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:50 ; elapsed = 00:01:59 . Memory (MB): peak = 1461.621 ; gain = 545.637 ; free physical = 3995 ; free virtual = 12847
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:50 ; elapsed = 00:01:59 . Memory (MB): peak = 1461.621 ; gain = 545.637 ; free physical = 3995 ; free virtual = 12847
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:50 ; elapsed = 00:01:59 . Memory (MB): peak = 1461.621 ; gain = 545.637 ; free physical = 3995 ; free virtual = 12847
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:50 ; elapsed = 00:01:59 . Memory (MB): peak = 1461.621 ; gain = 545.637 ; free physical = 3995 ; free virtual = 12847
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |LUT1 |     1|
+|2     |LUT2 |    11|
+|3     |LUT3 |    35|
+|4     |LUT4 |     2|
+|5     |LUT5 |     4|
+|6     |LUT6 |     6|
+|7     |FDRE |    12|
+|8     |FDSE |     1|
++------+-----+------+
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:50 ; elapsed = 00:01:59 . Memory (MB): peak = 1461.621 ; gain = 545.637 ; free physical = 3995 ; free virtual = 12847
+synth_design: Time (s): cpu = 00:01:47 ; elapsed = 00:01:55 . Memory (MB): peak = 1461.621 ; gain = 451.918 ; free physical = 3991 ; free virtual = 12842

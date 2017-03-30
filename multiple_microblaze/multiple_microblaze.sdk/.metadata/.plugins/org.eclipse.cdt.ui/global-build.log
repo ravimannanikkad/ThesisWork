@@ -551,3 +551,869 @@ make: Nothing to be done for `all'.
 19:47:56 **** Incremental Build of configuration Debug for project IMU_MB2 ****
 make all 
 make: Nothing to be done for `all'.
+11:41:40 **** Incremental Build of configuration Debug for project IMU_MB0 ****
+make all 
+make: Nothing to be done for `all'.
+11:42:11 **** Incremental Build of configuration Debug for project IMU_MB0 ****
+make all 
+make: Nothing to be done for `all'.
+13:12:29 **** Build of project helloWorlld_bsp ****
+make -k all 
+Running Make include in MB_Sys0_microblaze_0/libsrc/bram_v4_1/src
+make -C MB_Sys0_microblaze_0/libsrc/bram_v4_1/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in MB_Sys0_microblaze_0/libsrc/cpu_v2_5/src
+make -C MB_Sys0_microblaze_0/libsrc/cpu_v2_5/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in MB_Sys0_microblaze_0/libsrc/iic_v3_3/src
+make -C MB_Sys0_microblaze_0/libsrc/iic_v3_3/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in MB_Sys0_microblaze_0/libsrc/intc_v3_5/src
+make -C MB_Sys0_microblaze_0/libsrc/intc_v3_5/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in MB_Sys0_microblaze_0/libsrc/standalone_v6_0/src
+make -C MB_Sys0_microblaze_0/libsrc/standalone_v6_0/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in MB_Sys0_microblaze_0/libsrc/uartlite_v3_2/src
+make -C MB_Sys0_microblaze_0/libsrc/uartlite_v3_2/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+Running Make libs in MB_Sys0_microblaze_0/libsrc/bram_v4_1/src
+make -C MB_Sys0_microblaze_0/libsrc/bram_v4_1/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+Compiling bram
+mb-ar: creating ../../../lib/libxil.a
+Running Make libs in MB_Sys0_microblaze_0/libsrc/cpu_v2_5/src
+make -C MB_Sys0_microblaze_0/libsrc/cpu_v2_5/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+Compiling cpu
+Running Make libs in MB_Sys0_microblaze_0/libsrc/iic_v3_3/src
+make -C MB_Sys0_microblaze_0/libsrc/iic_v3_3/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+Compiling iic
+Running Make libs in MB_Sys0_microblaze_0/libsrc/intc_v3_5/src
+make -C MB_Sys0_microblaze_0/libsrc/intc_v3_5/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+Compiling intc
+Running Make libs in MB_Sys0_microblaze_0/libsrc/standalone_v6_0/src
+make -C MB_Sys0_microblaze_0/libsrc/standalone_v6_0/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+Compiling standalone
+Running Make libs in MB_Sys0_microblaze_0/libsrc/uartlite_v3_2/src
+make -C MB_Sys0_microblaze_0/libsrc/uartlite_v3_2/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+Compiling uartlite
+Finished building libraries
+13:12:33 **** Build of configuration Debug for project helloWorlld ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../helloWorlld_bsp/MB_Sys0_microblaze_0/include -mno-xl-reorder -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building file: ../src/platform.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../helloWorlld_bsp/MB_Sys0_microblaze_0/include -mno-xl-reorder -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+Finished building: ../src/platform.c
+ 
+Building target: helloWorlld.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../helloWorlld_bsp/MB_Sys0_microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -o "helloWorlld.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: helloWorlld.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size helloWorlld.elf  |tee "helloWorlld.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   7120	    340	   3252	  10712	   29d8	helloWorlld.elf
+Finished building: helloWorlld.elf.size
+ 
+13:12:35 **** Auto Build of configuration Debug for project helloWorlld ****
+make all 
+make: Nothing to be done for `all'.
+13:14:21 **** Incremental Build of configuration Debug for project helloWorlld ****
+make all 
+make: Nothing to be done for `all'.
+13:14:57 **** Build of project helloWorld_bsp ****
+make -k all 
+Running Make include in MB_Sys1_microblaze_1/libsrc/bram_v4_1/src
+make -C MB_Sys1_microblaze_1/libsrc/bram_v4_1/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in MB_Sys1_microblaze_1/libsrc/cpu_v2_5/src
+make -C MB_Sys1_microblaze_1/libsrc/cpu_v2_5/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in MB_Sys1_microblaze_1/libsrc/iic_v3_3/src
+make -C MB_Sys1_microblaze_1/libsrc/iic_v3_3/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in MB_Sys1_microblaze_1/libsrc/intc_v3_5/src
+make -C MB_Sys1_microblaze_1/libsrc/intc_v3_5/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in MB_Sys1_microblaze_1/libsrc/standalone_v6_0/src
+make -C MB_Sys1_microblaze_1/libsrc/standalone_v6_0/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in MB_Sys1_microblaze_1/libsrc/uartlite_v3_2/src
+make -C MB_Sys1_microblaze_1/libsrc/uartlite_v3_2/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+Running Make libs in MB_Sys1_microblaze_1/libsrc/bram_v4_1/src
+make -C MB_Sys1_microblaze_1/libsrc/bram_v4_1/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+Compiling bram
+mb-ar: creating ../../../lib/libxil.a
+Running Make libs in MB_Sys1_microblaze_1/libsrc/cpu_v2_5/src
+make -C MB_Sys1_microblaze_1/libsrc/cpu_v2_5/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+Compiling cpu
+Running Make libs in MB_Sys1_microblaze_1/libsrc/iic_v3_3/src
+make -C MB_Sys1_microblaze_1/libsrc/iic_v3_3/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+Compiling iic
+Running Make libs in MB_Sys1_microblaze_1/libsrc/intc_v3_5/src
+make -C MB_Sys1_microblaze_1/libsrc/intc_v3_5/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+Compiling intc
+Running Make libs in MB_Sys1_microblaze_1/libsrc/standalone_v6_0/src
+make -C MB_Sys1_microblaze_1/libsrc/standalone_v6_0/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+Compiling standalone
+Running Make libs in MB_Sys1_microblaze_1/libsrc/uartlite_v3_2/src
+make -C MB_Sys1_microblaze_1/libsrc/uartlite_v3_2/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+Compiling uartlite
+Finished building libraries
+13:15:00 **** Build of configuration Debug for project helloWorld ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../helloWorld_bsp/MB_Sys1_microblaze_1/include -mno-xl-reorder -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building file: ../src/platform.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../helloWorld_bsp/MB_Sys1_microblaze_1/include -mno-xl-reorder -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+Finished building: ../src/platform.c
+ 
+Building target: helloWorld.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../helloWorld_bsp/MB_Sys1_microblaze_1/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -o "helloWorld.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: helloWorld.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size helloWorld.elf  |tee "helloWorld.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   7120	    340	   3252	  10712	   29d8	helloWorld.elf
+Finished building: helloWorld.elf.size
+ 
+13:15:01 **** Auto Build of configuration Debug for project helloWorld ****
+make all 
+make: Nothing to be done for `all'.
+13:15:17 **** Incremental Build of configuration Debug for project helloWorld ****
+make all 
+make: Nothing to be done for `all'.
+13:15:53 **** Build of project helloWorld_bsp ****
+make -k all 
+Running Make include in MB_Sys2_microblaze_2/libsrc/bram_v4_1/src
+make -C MB_Sys2_microblaze_2/libsrc/bram_v4_1/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in MB_Sys2_microblaze_2/libsrc/cpu_v2_5/src
+make -C MB_Sys2_microblaze_2/libsrc/cpu_v2_5/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in MB_Sys2_microblaze_2/libsrc/iic_v3_3/src
+make -C MB_Sys2_microblaze_2/libsrc/iic_v3_3/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in MB_Sys2_microblaze_2/libsrc/intc_v3_5/src
+make -C MB_Sys2_microblaze_2/libsrc/intc_v3_5/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in MB_Sys2_microblaze_2/libsrc/standalone_v6_0/src
+make -C MB_Sys2_microblaze_2/libsrc/standalone_v6_0/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in MB_Sys2_microblaze_2/libsrc/uartlite_v3_2/src
+make -C MB_Sys2_microblaze_2/libsrc/uartlite_v3_2/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+Running Make libs in MB_Sys2_microblaze_2/libsrc/bram_v4_1/src
+make -C MB_Sys2_microblaze_2/libsrc/bram_v4_1/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+Compiling bram
+mb-ar: creating ../../../lib/libxil.a
+Running Make libs in MB_Sys2_microblaze_2/libsrc/cpu_v2_5/src
+make -C MB_Sys2_microblaze_2/libsrc/cpu_v2_5/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+Compiling cpu
+Running Make libs in MB_Sys2_microblaze_2/libsrc/iic_v3_3/src
+make -C MB_Sys2_microblaze_2/libsrc/iic_v3_3/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+Compiling iic
+Running Make libs in MB_Sys2_microblaze_2/libsrc/intc_v3_5/src
+make -C MB_Sys2_microblaze_2/libsrc/intc_v3_5/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+Compiling intc
+Running Make libs in MB_Sys2_microblaze_2/libsrc/standalone_v6_0/src
+make -C MB_Sys2_microblaze_2/libsrc/standalone_v6_0/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+Compiling standalone
+Running Make libs in MB_Sys2_microblaze_2/libsrc/uartlite_v3_2/src
+make -C MB_Sys2_microblaze_2/libsrc/uartlite_v3_2/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+Compiling uartlite
+Finished building libraries
+13:15:56 **** Build of configuration Debug for project helloWorld ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../helloWorld_bsp/MB_Sys2_microblaze_2/include -mno-xl-reorder -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building file: ../src/platform.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../helloWorld_bsp/MB_Sys2_microblaze_2/include -mno-xl-reorder -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+Finished building: ../src/platform.c
+ 
+Building target: helloWorld.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../helloWorld_bsp/MB_Sys2_microblaze_2/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -o "helloWorld.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: helloWorld.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size helloWorld.elf  |tee "helloWorld.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   7120	    340	   3252	  10712	   29d8	helloWorld.elf
+Finished building: helloWorld.elf.size
+ 
+13:15:57 **** Auto Build of configuration Debug for project helloWorld ****
+make all 
+make: Nothing to be done for `all'.
+13:16:03 **** Incremental Build of configuration Debug for project helloWorld ****
+make all 
+make: Nothing to be done for `all'.
+13:16:42 **** Incremental Build of configuration Debug for project helloWorld ****
+make all 
+make: Nothing to be done for `all'.
+13:17:24 **** Incremental Build of configuration Debug for project helloWorld ****
+make all 
+make: Nothing to be done for `all'.
+13:18:37 **** Build of project hello_bsp ****
+make -k all 
+Running Make include in MB_Sys2_microblaze_2/libsrc/bram_v4_1/src
+make -C MB_Sys2_microblaze_2/libsrc/bram_v4_1/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in MB_Sys2_microblaze_2/libsrc/cpu_v2_5/src
+make -C MB_Sys2_microblaze_2/libsrc/cpu_v2_5/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in MB_Sys2_microblaze_2/libsrc/iic_v3_3/src
+make -C MB_Sys2_microblaze_2/libsrc/iic_v3_3/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in MB_Sys2_microblaze_2/libsrc/intc_v3_5/src
+make -C MB_Sys2_microblaze_2/libsrc/intc_v3_5/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in MB_Sys2_microblaze_2/libsrc/standalone_v6_0/src
+make -C MB_Sys2_microblaze_2/libsrc/standalone_v6_0/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in MB_Sys2_microblaze_2/libsrc/uartlite_v3_2/src
+make -C MB_Sys2_microblaze_2/libsrc/uartlite_v3_2/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+Running Make libs in MB_Sys2_microblaze_2/libsrc/bram_v4_1/src
+make -C MB_Sys2_microblaze_2/libsrc/bram_v4_1/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+Compiling bram
+mb-ar: creating ../../../lib/libxil.a
+Running Make libs in MB_Sys2_microblaze_2/libsrc/cpu_v2_5/src
+make -C MB_Sys2_microblaze_2/libsrc/cpu_v2_5/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+Compiling cpu
+Running Make libs in MB_Sys2_microblaze_2/libsrc/iic_v3_3/src
+make -C MB_Sys2_microblaze_2/libsrc/iic_v3_3/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+Compiling iic
+Running Make libs in MB_Sys2_microblaze_2/libsrc/intc_v3_5/src
+make -C MB_Sys2_microblaze_2/libsrc/intc_v3_5/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+Compiling intc
+Running Make libs in MB_Sys2_microblaze_2/libsrc/standalone_v6_0/src
+make -C MB_Sys2_microblaze_2/libsrc/standalone_v6_0/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+Compiling standalone
+Running Make libs in MB_Sys2_microblaze_2/libsrc/uartlite_v3_2/src
+make -C MB_Sys2_microblaze_2/libsrc/uartlite_v3_2/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+Compiling uartlite
+Finished building libraries
+13:18:39 **** Build of configuration Debug for project hello ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../hello_bsp/MB_Sys2_microblaze_2/include -mno-xl-reorder -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building file: ../src/platform.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../hello_bsp/MB_Sys2_microblaze_2/include -mno-xl-reorder -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+Finished building: ../src/platform.c
+ 
+Building target: hello.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../hello_bsp/MB_Sys2_microblaze_2/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -o "hello.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: hello.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size hello.elf  |tee "hello.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   7120	    340	   3252	  10712	   29d8	hello.elf
+Finished building: hello.elf.size
+ 
+13:18:41 **** Auto Build of configuration Debug for project hello ****
+make all 
+make: Nothing to be done for `all'.
+13:18:50 **** Incremental Build of configuration Debug for project hello ****
+make all 
+make: Nothing to be done for `all'.
+13:19:28 **** Build of project IMU_MB0_bsp ****
+make -k all 
+Running Make include in MB_Sys0_microblaze_0/libsrc/bram_v4_1/src
+make -C MB_Sys0_microblaze_0/libsrc/bram_v4_1/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in MB_Sys0_microblaze_0/libsrc/cpu_v2_5/src
+make -C MB_Sys0_microblaze_0/libsrc/cpu_v2_5/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in MB_Sys0_microblaze_0/libsrc/iic_v3_3/src
+make -C MB_Sys0_microblaze_0/libsrc/iic_v3_3/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in MB_Sys0_microblaze_0/libsrc/intc_v3_5/src
+make -C MB_Sys0_microblaze_0/libsrc/intc_v3_5/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in MB_Sys0_microblaze_0/libsrc/standalone_v6_0/src
+make -C MB_Sys0_microblaze_0/libsrc/standalone_v6_0/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in MB_Sys0_microblaze_0/libsrc/uartlite_v3_2/src
+make -C MB_Sys0_microblaze_0/libsrc/uartlite_v3_2/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+Running Make libs in MB_Sys0_microblaze_0/libsrc/bram_v4_1/src
+make -C MB_Sys0_microblaze_0/libsrc/bram_v4_1/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+Compiling bram
+mb-ar: creating ../../../lib/libxil.a
+Running Make libs in MB_Sys0_microblaze_0/libsrc/cpu_v2_5/src
+make -C MB_Sys0_microblaze_0/libsrc/cpu_v2_5/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+Compiling cpu
+Running Make libs in MB_Sys0_microblaze_0/libsrc/iic_v3_3/src
+make -C MB_Sys0_microblaze_0/libsrc/iic_v3_3/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+Compiling iic
+Running Make libs in MB_Sys0_microblaze_0/libsrc/intc_v3_5/src
+make -C MB_Sys0_microblaze_0/libsrc/intc_v3_5/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+Compiling intc
+Running Make libs in MB_Sys0_microblaze_0/libsrc/standalone_v6_0/src
+make -C MB_Sys0_microblaze_0/libsrc/standalone_v6_0/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+Compiling standalone
+Running Make libs in MB_Sys0_microblaze_0/libsrc/uartlite_v3_2/src
+make -C MB_Sys0_microblaze_0/libsrc/uartlite_v3_2/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+Compiling uartlite
+Finished building libraries
+13:19:31 **** Auto Build of project IMU_MB0_bsp ****
+make -k all 
+Running Make include in MB_Sys0_microblaze_0/libsrc/bram_v4_1/src
+make -C MB_Sys0_microblaze_0/libsrc/bram_v4_1/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in MB_Sys0_microblaze_0/libsrc/cpu_v2_5/src
+make -C MB_Sys0_microblaze_0/libsrc/cpu_v2_5/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in MB_Sys0_microblaze_0/libsrc/iic_v3_3/src
+make -C MB_Sys0_microblaze_0/libsrc/iic_v3_3/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in MB_Sys0_microblaze_0/libsrc/intc_v3_5/src
+make -C MB_Sys0_microblaze_0/libsrc/intc_v3_5/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in MB_Sys0_microblaze_0/libsrc/standalone_v6_0/src
+make -C MB_Sys0_microblaze_0/libsrc/standalone_v6_0/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in MB_Sys0_microblaze_0/libsrc/uartlite_v3_2/src
+make -C MB_Sys0_microblaze_0/libsrc/uartlite_v3_2/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+Running Make libs in MB_Sys0_microblaze_0/libsrc/bram_v4_1/src
+make -C MB_Sys0_microblaze_0/libsrc/bram_v4_1/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+Compiling bram
+Running Make libs in MB_Sys0_microblaze_0/libsrc/cpu_v2_5/src
+make -C MB_Sys0_microblaze_0/libsrc/cpu_v2_5/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+Compiling cpu
+Running Make libs in MB_Sys0_microblaze_0/libsrc/iic_v3_3/src
+make -C MB_Sys0_microblaze_0/libsrc/iic_v3_3/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+Compiling iic
+Running Make libs in MB_Sys0_microblaze_0/libsrc/intc_v3_5/src
+make -C MB_Sys0_microblaze_0/libsrc/intc_v3_5/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+Compiling intc
+Running Make libs in MB_Sys0_microblaze_0/libsrc/standalone_v6_0/src
+make -C MB_Sys0_microblaze_0/libsrc/standalone_v6_0/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+Compiling standalone
+Running Make libs in MB_Sys0_microblaze_0/libsrc/uartlite_v3_2/src
+make -C MB_Sys0_microblaze_0/libsrc/uartlite_v3_2/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+Compiling uartlite
+Finished building libraries
+
+**** Build of configuration Debug for project IMU_MB0 ****
+
+Nothing to build for project IMU_MB0
+13:20:49 **** Auto Build of configuration Debug for project IMU_MB0 ****
+make all 
+Building file: ../src/I2C_Microblaze.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/I2C_Microblaze.o" -I../../IMU_MB0_bsp/MB_Sys0_microblaze_0/include -mno-xl-reorder -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/I2C_Microblaze.d" -MT"src/I2C_Microblaze.o" -o "src/I2C_Microblaze.o" "../src/I2C_Microblaze.c"
+Finished building: ../src/I2C_Microblaze.c
+ 
+Building file: ../src/IMU.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/IMU.o" -I../../IMU_MB0_bsp/MB_Sys0_microblaze_0/include -mno-xl-reorder -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/IMU.d" -MT"src/IMU.o" -o "src/IMU.o" "../src/IMU.c"
+In file included from ../src/IMU.h:22:0,
+                 from ../src/IMU.c:15:
+../../IMU_MB0_bsp/MB_Sys0_microblaze_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../IMU_MB0_bsp/MB_Sys0_microblaze_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+In file included from ../src/IMU.h:21:0,
+                 from ../src/IMU.c:15:
+../src/I2C_Microblaze.h:54:12: warning: 'SetupInterruptSystem' declared 'static' but never defined [-Wunused-function]
+ static int SetupInterruptSystem(XIic *IicInstPtr);
+            ^
+../src/I2C_Microblaze.h:55:13: warning: 'SendHandler' declared 'static' but never defined [-Wunused-function]
+ static void SendHandler(XIic *InstancePtr);
+             ^
+../src/I2C_Microblaze.h:56:13: warning: 'ReceiveHandler' declared 'static' but never defined [-Wunused-function]
+ static void ReceiveHandler(XIic *InstancePtr);
+             ^
+../src/I2C_Microblaze.h:57:13: warning: 'StatusHandler' declared 'static' but never defined [-Wunused-function]
+ static void StatusHandler(XIic *InstancePtr, int Event);
+             ^
+Finished building: ../src/IMU.c
+ 
+Building file: ../src/MPU9250.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/MPU9250.o" -I../../IMU_MB0_bsp/MB_Sys0_microblaze_0/include -mno-xl-reorder -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/MPU9250.d" -MT"src/MPU9250.o" -o "src/MPU9250.o" "../src/MPU9250.c"
+In file included from ../src/MPU9250.h:12:0,
+                 from ../src/MPU9250.c:10:
+../src/I2C_Microblaze.h:54:12: warning: 'SetupInterruptSystem' declared 'static' but never defined [-Wunused-function]
+ static int SetupInterruptSystem(XIic *IicInstPtr);
+            ^
+../src/I2C_Microblaze.h:55:13: warning: 'SendHandler' declared 'static' but never defined [-Wunused-function]
+ static void SendHandler(XIic *InstancePtr);
+             ^
+../src/I2C_Microblaze.h:56:13: warning: 'ReceiveHandler' declared 'static' but never defined [-Wunused-function]
+ static void ReceiveHandler(XIic *InstancePtr);
+             ^
+../src/I2C_Microblaze.h:57:13: warning: 'StatusHandler' declared 'static' but never defined [-Wunused-function]
+ static void StatusHandler(XIic *InstancePtr, int Event);
+             ^
+Finished building: ../src/MPU9250.c
+ 
+Building file: ../src/main.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../IMU_MB0_bsp/MB_Sys0_microblaze_0/include -mno-xl-reorder -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/IMU.h:22:0,
+                 from ../src/main.c:15:
+../../IMU_MB0_bsp/MB_Sys0_microblaze_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../IMU_MB0_bsp/MB_Sys0_microblaze_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+../src/main.c:16:26: fatal error: MB_configure.h: No such file or directory
+compilation terminated.
+make: *** [src/main.o] Error 1
+13:21:09 **** Auto Build of configuration Debug for project IMU_MB0 ****
+make all 
+Building file: ../src/main.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../IMU_MB0_bsp/MB_Sys0_microblaze_0/include -mno-xl-reorder -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/IMU.h:22:0,
+                 from ../src/main.c:15:
+../../IMU_MB0_bsp/MB_Sys0_microblaze_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../IMU_MB0_bsp/MB_Sys0_microblaze_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+../src/main.c: In function 'main':
+../src/main.c:32:5: warning: implicit declaration of function 'init_platform' [-Wimplicit-function-declaration]
+     init_platform();
+     ^
+../src/main.c:31:7: warning: unused variable 'x' [-Wunused-variable]
+  bool x;
+       ^
+In file included from ../src/IMU.h:21:0,
+                 from ../src/main.c:15:
+../src/main.c: At top level:
+../src/I2C_Microblaze.h:54:12: warning: 'SetupInterruptSystem' declared 'static' but never defined [-Wunused-function]
+ static int SetupInterruptSystem(XIic *IicInstPtr);
+            ^
+../src/I2C_Microblaze.h:55:13: warning: 'SendHandler' declared 'static' but never defined [-Wunused-function]
+ static void SendHandler(XIic *InstancePtr);
+             ^
+../src/I2C_Microblaze.h:56:13: warning: 'ReceiveHandler' declared 'static' but never defined [-Wunused-function]
+ static void ReceiveHandler(XIic *InstancePtr);
+             ^
+../src/I2C_Microblaze.h:57:13: warning: 'StatusHandler' declared 'static' but never defined [-Wunused-function]
+ static void StatusHandler(XIic *InstancePtr, int Event);
+             ^
+Finished building: ../src/main.c
+ 
+Building target: IMU_MB0.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../IMU_MB0_bsp/MB_Sys0_microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -o "IMU_MB0.elf"  ./src/I2C_Microblaze.o ./src/IMU.o ./src/MPU9250.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/main.o: In function `main':
+/home/ravi/ThesisWork/multiple_microblaze/multiple_microblaze.sdk/IMU_MB0/Debug/../src/main.c:32: undefined reference to `init_platform'
+collect2: error: ld returned 1 exit status
+make: *** [IMU_MB0.elf] Error 1
+13:21:17 **** Auto Build of configuration Debug for project IMU_MB0 ****
+make all 
+Building file: ../src/main.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../IMU_MB0_bsp/MB_Sys0_microblaze_0/include -mno-xl-reorder -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/IMU.h:22:0,
+                 from ../src/main.c:15:
+../../IMU_MB0_bsp/MB_Sys0_microblaze_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../IMU_MB0_bsp/MB_Sys0_microblaze_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+../src/main.c: In function 'main':
+../src/main.c:31:7: warning: unused variable 'x' [-Wunused-variable]
+  bool x;
+       ^
+In file included from ../src/IMU.h:21:0,
+                 from ../src/main.c:15:
+../src/main.c: At top level:
+../src/I2C_Microblaze.h:54:12: warning: 'SetupInterruptSystem' declared 'static' but never defined [-Wunused-function]
+ static int SetupInterruptSystem(XIic *IicInstPtr);
+            ^
+../src/I2C_Microblaze.h:55:13: warning: 'SendHandler' declared 'static' but never defined [-Wunused-function]
+ static void SendHandler(XIic *InstancePtr);
+             ^
+../src/I2C_Microblaze.h:56:13: warning: 'ReceiveHandler' declared 'static' but never defined [-Wunused-function]
+ static void ReceiveHandler(XIic *InstancePtr);
+             ^
+../src/I2C_Microblaze.h:57:13: warning: 'StatusHandler' declared 'static' but never defined [-Wunused-function]
+ static void StatusHandler(XIic *InstancePtr, int Event);
+             ^
+Finished building: ../src/main.c
+ 
+Building target: IMU_MB0.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../IMU_MB0_bsp/MB_Sys0_microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -o "IMU_MB0.elf"  ./src/I2C_Microblaze.o ./src/IMU.o ./src/MPU9250.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: IMU_MB0.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size IMU_MB0.elf  |tee "IMU_MB0.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  44544	    392	   3480	  48416	   bd20	IMU_MB0.elf
+Finished building: IMU_MB0.elf.size
+ 
+13:21:46 **** Incremental Build of configuration Debug for project IMU_MB0 ****
+make all 
+make: Nothing to be done for `all'.
+13:21:46 **** Auto Build of configuration Debug for project IMU_MB0 ****
+make all 
+make: Nothing to be done for `all'.
+13:22:13 **** Incremental Build of configuration Debug for project IMU_MB0 ****
+make all 
+make: Nothing to be done for `all'.
+13:22:34 **** Incremental Build of configuration Debug for project IMU_MB0 ****
+make all 
+make: Nothing to be done for `all'.
+13:24:06 **** Build of project IMU_MB0_bsp ****
+make -k all 
+Running Make include in MB_Sys0_microblaze_0/libsrc/bram_v4_1/src
+make -C MB_Sys0_microblaze_0/libsrc/bram_v4_1/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in MB_Sys0_microblaze_0/libsrc/cpu_v2_5/src
+make -C MB_Sys0_microblaze_0/libsrc/cpu_v2_5/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in MB_Sys0_microblaze_0/libsrc/iic_v3_3/src
+make -C MB_Sys0_microblaze_0/libsrc/iic_v3_3/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in MB_Sys0_microblaze_0/libsrc/intc_v3_5/src
+make -C MB_Sys0_microblaze_0/libsrc/intc_v3_5/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in MB_Sys0_microblaze_0/libsrc/standalone_v6_0/src
+make -C MB_Sys0_microblaze_0/libsrc/standalone_v6_0/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in MB_Sys0_microblaze_0/libsrc/uartlite_v3_2/src
+make -C MB_Sys0_microblaze_0/libsrc/uartlite_v3_2/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+Running Make libs in MB_Sys0_microblaze_0/libsrc/bram_v4_1/src
+make -C MB_Sys0_microblaze_0/libsrc/bram_v4_1/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+Compiling bram
+mb-ar: creating ../../../lib/libxil.a
+Running Make libs in MB_Sys0_microblaze_0/libsrc/cpu_v2_5/src
+make -C MB_Sys0_microblaze_0/libsrc/cpu_v2_5/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+Compiling cpu
+Running Make libs in MB_Sys0_microblaze_0/libsrc/iic_v3_3/src
+make -C MB_Sys0_microblaze_0/libsrc/iic_v3_3/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+Compiling iic
+Running Make libs in MB_Sys0_microblaze_0/libsrc/intc_v3_5/src
+make -C MB_Sys0_microblaze_0/libsrc/intc_v3_5/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+Compiling intc
+Running Make libs in MB_Sys0_microblaze_0/libsrc/standalone_v6_0/src
+make -C MB_Sys0_microblaze_0/libsrc/standalone_v6_0/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+Compiling standalone
+Running Make libs in MB_Sys0_microblaze_0/libsrc/uartlite_v3_2/src
+make -C MB_Sys0_microblaze_0/libsrc/uartlite_v3_2/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+Compiling uartlite
+Finished building libraries
+
+**** Build of configuration Debug for project IMU_MB0 ****
+
+Nothing to build for project IMU_MB0
+13:25:08 **** Auto Build of configuration Debug for project IMU_MB0 ****
+make all 
+Building file: ../I2C_Microblaze.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"I2C_Microblaze.o" -I../../IMU_MB0_bsp/MB_Sys0_microblaze_0/include -mno-xl-reorder -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"I2C_Microblaze.d" -MT"I2C_Microblaze.o" -o "I2C_Microblaze.o" "../I2C_Microblaze.c"
+Finished building: ../I2C_Microblaze.c
+ 
+Building file: ../IMU.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"IMU.o" -I../../IMU_MB0_bsp/MB_Sys0_microblaze_0/include -mno-xl-reorder -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"IMU.d" -MT"IMU.o" -o "IMU.o" "../IMU.c"
+In file included from ../IMU.h:22:0,
+                 from ../IMU.c:15:
+../../IMU_MB0_bsp/MB_Sys0_microblaze_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../IMU_MB0_bsp/MB_Sys0_microblaze_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+In file included from ../IMU.h:21:0,
+                 from ../IMU.c:15:
+../I2C_Microblaze.h:54:12: warning: 'SetupInterruptSystem' declared 'static' but never defined [-Wunused-function]
+ static int SetupInterruptSystem(XIic *IicInstPtr);
+            ^
+../I2C_Microblaze.h:55:13: warning: 'SendHandler' declared 'static' but never defined [-Wunused-function]
+ static void SendHandler(XIic *InstancePtr);
+             ^
+../I2C_Microblaze.h:56:13: warning: 'ReceiveHandler' declared 'static' but never defined [-Wunused-function]
+ static void ReceiveHandler(XIic *InstancePtr);
+             ^
+../I2C_Microblaze.h:57:13: warning: 'StatusHandler' declared 'static' but never defined [-Wunused-function]
+ static void StatusHandler(XIic *InstancePtr, int Event);
+             ^
+Finished building: ../IMU.c
+ 
+Building file: ../MB_configure.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"MB_configure.o" -I../../IMU_MB0_bsp/MB_Sys0_microblaze_0/include -mno-xl-reorder -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"MB_configure.d" -MT"MB_configure.o" -o "MB_configure.o" "../MB_configure.c"
+In file included from ../MPU9250.h:12:0,
+                 from ../MB_configure.h:11,
+                 from ../MB_configure.c:10:
+../I2C_Microblaze.h:54:12: warning: 'SetupInterruptSystem' declared 'static' but never defined [-Wunused-function]
+ static int SetupInterruptSystem(XIic *IicInstPtr);
+            ^
+../I2C_Microblaze.h:55:13: warning: 'SendHandler' declared 'static' but never defined [-Wunused-function]
+ static void SendHandler(XIic *InstancePtr);
+             ^
+../I2C_Microblaze.h:56:13: warning: 'ReceiveHandler' declared 'static' but never defined [-Wunused-function]
+ static void ReceiveHandler(XIic *InstancePtr);
+             ^
+../I2C_Microblaze.h:57:13: warning: 'StatusHandler' declared 'static' but never defined [-Wunused-function]
+ static void StatusHandler(XIic *InstancePtr, int Event);
+             ^
+Finished building: ../MB_configure.c
+ 
+Building file: ../MPU9250.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"MPU9250.o" -I../../IMU_MB0_bsp/MB_Sys0_microblaze_0/include -mno-xl-reorder -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"MPU9250.d" -MT"MPU9250.o" -o "MPU9250.o" "../MPU9250.c"
+In file included from ../MPU9250.h:12:0,
+                 from ../MPU9250.c:10:
+../I2C_Microblaze.h:54:12: warning: 'SetupInterruptSystem' declared 'static' but never defined [-Wunused-function]
+ static int SetupInterruptSystem(XIic *IicInstPtr);
+            ^
+../I2C_Microblaze.h:55:13: warning: 'SendHandler' declared 'static' but never defined [-Wunused-function]
+ static void SendHandler(XIic *InstancePtr);
+             ^
+../I2C_Microblaze.h:56:13: warning: 'ReceiveHandler' declared 'static' but never defined [-Wunused-function]
+ static void ReceiveHandler(XIic *InstancePtr);
+             ^
+../I2C_Microblaze.h:57:13: warning: 'StatusHandler' declared 'static' but never defined [-Wunused-function]
+ static void StatusHandler(XIic *InstancePtr, int Event);
+             ^
+Finished building: ../MPU9250.c
+ 
+Building file: ../main.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"main.o" -I../../IMU_MB0_bsp/MB_Sys0_microblaze_0/include -mno-xl-reorder -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+In file included from ../IMU.h:22:0,
+                 from ../main.c:15:
+../../IMU_MB0_bsp/MB_Sys0_microblaze_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../IMU_MB0_bsp/MB_Sys0_microblaze_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+In file included from ../MB_configure.h:11:0,
+                 from ../main.c:16:
+../MPU9250.h:134:0: warning: "AK8963_I2C_ADDR" redefined
+ #define AK8963_I2C_ADDR             0x0C  // should return 0x18
+ ^
+In file included from ../main.c:15:0:
+../IMU.h:189:0: note: this is the location of the previous definition
+ #define AK8963_I2C_ADDR             0x0c//0x18
+ ^
+../main.c: In function 'main':
+../main.c:32:5: warning: implicit declaration of function 'init_platform' [-Wimplicit-function-declaration]
+     init_platform();
+     ^
+../main.c:31:7: warning: unused variable 'x' [-Wunused-variable]
+  bool x;
+       ^
+In file included from ../IMU.h:21:0,
+                 from ../main.c:15:
+../main.c: At top level:
+../I2C_Microblaze.h:54:12: warning: 'SetupInterruptSystem' declared 'static' but never defined [-Wunused-function]
+ static int SetupInterruptSystem(XIic *IicInstPtr);
+            ^
+../I2C_Microblaze.h:55:13: warning: 'SendHandler' declared 'static' but never defined [-Wunused-function]
+ static void SendHandler(XIic *InstancePtr);
+             ^
+../I2C_Microblaze.h:56:13: warning: 'ReceiveHandler' declared 'static' but never defined [-Wunused-function]
+ static void ReceiveHandler(XIic *InstancePtr);
+             ^
+../I2C_Microblaze.h:57:13: warning: 'StatusHandler' declared 'static' but never defined [-Wunused-function]
+ static void StatusHandler(XIic *InstancePtr, int Event);
+             ^
+Finished building: ../main.c
+ 
+Building file: ../platform.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"platform.o" -I../../IMU_MB0_bsp/MB_Sys0_microblaze_0/include -mno-xl-reorder -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"platform.d" -MT"platform.o" -o "platform.o" "../platform.c"
+Finished building: ../platform.c
+ 
+Building target: IMU_MB0.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../IMU_MB0_bsp/MB_Sys0_microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -o "IMU_MB0.elf"  ./I2C_Microblaze.o ./IMU.o ./MB_configure.o ./MPU9250.o ./main.o ./platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: IMU_MB0.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size IMU_MB0.elf  |tee "IMU_MB0.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  46384	    392	   3480	  50256	   c450	IMU_MB0.elf
+Finished building: IMU_MB0.elf.size
+ 
+13:25:10 **** Auto Build of configuration Debug for project IMU_MB0 ****
+make all 
+make: Nothing to be done for `all'.
+13:25:40 **** Incremental Build of configuration Debug for project IMU_MB0 ****
+make all 
+make: Nothing to be done for `all'.
+13:36:10 **** Build of project IMU_MB1_bsp ****
+make -k all 
+Running Make include in MB_Sys1_microblaze_1/libsrc/bram_v4_1/src
+make -C MB_Sys1_microblaze_1/libsrc/bram_v4_1/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in MB_Sys1_microblaze_1/libsrc/cpu_v2_5/src
+make -C MB_Sys1_microblaze_1/libsrc/cpu_v2_5/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in MB_Sys1_microblaze_1/libsrc/iic_v3_3/src
+make -C MB_Sys1_microblaze_1/libsrc/iic_v3_3/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in MB_Sys1_microblaze_1/libsrc/intc_v3_5/src
+make -C MB_Sys1_microblaze_1/libsrc/intc_v3_5/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in MB_Sys1_microblaze_1/libsrc/standalone_v6_0/src
+make -C MB_Sys1_microblaze_1/libsrc/standalone_v6_0/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in MB_Sys1_microblaze_1/libsrc/uartlite_v3_2/src
+make -C MB_Sys1_microblaze_1/libsrc/uartlite_v3_2/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+Running Make libs in MB_Sys1_microblaze_1/libsrc/bram_v4_1/src
+make -C MB_Sys1_microblaze_1/libsrc/bram_v4_1/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+Compiling bram
+mb-ar: creating ../../../lib/libxil.a
+Running Make libs in MB_Sys1_microblaze_1/libsrc/cpu_v2_5/src
+make -C MB_Sys1_microblaze_1/libsrc/cpu_v2_5/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+Compiling cpu
+Running Make libs in MB_Sys1_microblaze_1/libsrc/iic_v3_3/src
+make -C MB_Sys1_microblaze_1/libsrc/iic_v3_3/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+Compiling iic
+Running Make libs in MB_Sys1_microblaze_1/libsrc/intc_v3_5/src
+make -C MB_Sys1_microblaze_1/libsrc/intc_v3_5/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+Compiling intc
+Running Make libs in MB_Sys1_microblaze_1/libsrc/standalone_v6_0/src
+make -C MB_Sys1_microblaze_1/libsrc/standalone_v6_0/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+Compiling standalone
+Running Make libs in MB_Sys1_microblaze_1/libsrc/uartlite_v3_2/src
+make -C MB_Sys1_microblaze_1/libsrc/uartlite_v3_2/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+Compiling uartlite
+Finished building libraries
+
+**** Build of configuration Debug for project IMU_MB1 ****
+
+Nothing to build for project IMU_MB1
+13:36:25 **** Auto Build of configuration Debug for project IMU_MB1 ****
+make all 
+Building file: ../src/I2C_Microblaze.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/I2C_Microblaze.o" -I../../IMU_MB1_bsp/MB_Sys1_microblaze_1/include -mno-xl-reorder -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/I2C_Microblaze.d" -MT"src/I2C_Microblaze.o" -o "src/I2C_Microblaze.o" "../src/I2C_Microblaze.c"
+Finished building: ../src/I2C_Microblaze.c
+ 
+Building file: ../src/IMU.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/IMU.o" -I../../IMU_MB1_bsp/MB_Sys1_microblaze_1/include -mno-xl-reorder -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/IMU.d" -MT"src/IMU.o" -o "src/IMU.o" "../src/IMU.c"
+In file included from ../src/IMU.h:22:0,
+                 from ../src/IMU.c:15:
+../../IMU_MB1_bsp/MB_Sys1_microblaze_1/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../IMU_MB1_bsp/MB_Sys1_microblaze_1/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+In file included from ../src/IMU.h:21:0,
+                 from ../src/IMU.c:15:
+../src/I2C_Microblaze.h:54:12: warning: 'SetupInterruptSystem' declared 'static' but never defined [-Wunused-function]
+ static int SetupInterruptSystem(XIic *IicInstPtr);
+            ^
+../src/I2C_Microblaze.h:55:13: warning: 'SendHandler' declared 'static' but never defined [-Wunused-function]
+ static void SendHandler(XIic *InstancePtr);
+             ^
+../src/I2C_Microblaze.h:56:13: warning: 'ReceiveHandler' declared 'static' but never defined [-Wunused-function]
+ static void ReceiveHandler(XIic *InstancePtr);
+             ^
+../src/I2C_Microblaze.h:57:13: warning: 'StatusHandler' declared 'static' but never defined [-Wunused-function]
+ static void StatusHandler(XIic *InstancePtr, int Event);
+             ^
+Finished building: ../src/IMU.c
+ 
+Building file: ../src/MB_configure.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/MB_configure.o" -I../../IMU_MB1_bsp/MB_Sys1_microblaze_1/include -mno-xl-reorder -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/MB_configure.d" -MT"src/MB_configure.o" -o "src/MB_configure.o" "../src/MB_configure.c"
+In file included from ../src/MPU9250.h:12:0,
+                 from ../src/MB_configure.h:11,
+                 from ../src/MB_configure.c:10:
+../src/I2C_Microblaze.h:54:12: warning: 'SetupInterruptSystem' declared 'static' but never defined [-Wunused-function]
+ static int SetupInterruptSystem(XIic *IicInstPtr);
+            ^
+../src/I2C_Microblaze.h:55:13: warning: 'SendHandler' declared 'static' but never defined [-Wunused-function]
+ static void SendHandler(XIic *InstancePtr);
+             ^
+../src/I2C_Microblaze.h:56:13: warning: 'ReceiveHandler' declared 'static' but never defined [-Wunused-function]
+ static void ReceiveHandler(XIic *InstancePtr);
+             ^
+../src/I2C_Microblaze.h:57:13: warning: 'StatusHandler' declared 'static' but never defined [-Wunused-function]
+ static void StatusHandler(XIic *InstancePtr, int Event);
+             ^
+Finished building: ../src/MB_configure.c
+ 
+Building file: ../src/MPU9250.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/MPU9250.o" -I../../IMU_MB1_bsp/MB_Sys1_microblaze_1/include -mno-xl-reorder -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/MPU9250.d" -MT"src/MPU9250.o" -o "src/MPU9250.o" "../src/MPU9250.c"
+In file included from ../src/MPU9250.h:12:0,
+                 from ../src/MPU9250.c:10:
+../src/I2C_Microblaze.h:54:12: warning: 'SetupInterruptSystem' declared 'static' but never defined [-Wunused-function]
+ static int SetupInterruptSystem(XIic *IicInstPtr);
+            ^
+../src/I2C_Microblaze.h:55:13: warning: 'SendHandler' declared 'static' but never defined [-Wunused-function]
+ static void SendHandler(XIic *InstancePtr);
+             ^
+../src/I2C_Microblaze.h:56:13: warning: 'ReceiveHandler' declared 'static' but never defined [-Wunused-function]
+ static void ReceiveHandler(XIic *InstancePtr);
+             ^
+../src/I2C_Microblaze.h:57:13: warning: 'StatusHandler' declared 'static' but never defined [-Wunused-function]
+ static void StatusHandler(XIic *InstancePtr, int Event);
+             ^
+Finished building: ../src/MPU9250.c
+ 
+Building file: ../src/main.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../IMU_MB1_bsp/MB_Sys1_microblaze_1/include -mno-xl-reorder -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/IMU.h:22:0,
+                 from ../src/main.c:15:
+../../IMU_MB1_bsp/MB_Sys1_microblaze_1/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../IMU_MB1_bsp/MB_Sys1_microblaze_1/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+In file included from ../src/MB_configure.h:11:0,
+                 from ../src/main.c:16:
+../src/MPU9250.h:134:0: warning: "AK8963_I2C_ADDR" redefined
+ #define AK8963_I2C_ADDR             0x0C  // should return 0x18
+ ^
+In file included from ../src/main.c:15:0:
+../src/IMU.h:189:0: note: this is the location of the previous definition
+ #define AK8963_I2C_ADDR             0x0c//0x18
+ ^
+../src/main.c: In function 'main':
+../src/main.c:32:5: warning: implicit declaration of function 'init_platform' [-Wimplicit-function-declaration]
+     init_platform();
+     ^
+../src/main.c:31:7: warning: unused variable 'x' [-Wunused-variable]
+  bool x;
+       ^
+In file included from ../src/IMU.h:21:0,
+                 from ../src/main.c:15:
+../src/main.c: At top level:
+../src/I2C_Microblaze.h:54:12: warning: 'SetupInterruptSystem' declared 'static' but never defined [-Wunused-function]
+ static int SetupInterruptSystem(XIic *IicInstPtr);
+            ^
+../src/I2C_Microblaze.h:55:13: warning: 'SendHandler' declared 'static' but never defined [-Wunused-function]
+ static void SendHandler(XIic *InstancePtr);
+             ^
+../src/I2C_Microblaze.h:56:13: warning: 'ReceiveHandler' declared 'static' but never defined [-Wunused-function]
+ static void ReceiveHandler(XIic *InstancePtr);
+             ^
+../src/I2C_Microblaze.h:57:13: warning: 'StatusHandler' declared 'static' but never defined [-Wunused-function]
+ static void StatusHandler(XIic *InstancePtr, int Event);
+             ^
+Finished building: ../src/main.c
+ 
+Building file: ../src/platform.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../IMU_MB1_bsp/MB_Sys1_microblaze_1/include -mno-xl-reorder -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+Finished building: ../src/platform.c
+ 
+Building target: IMU_MB1.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../IMU_MB1_bsp/MB_Sys1_microblaze_1/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -o "IMU_MB1.elf"  ./src/I2C_Microblaze.o ./src/IMU.o ./src/MB_configure.o ./src/MPU9250.o ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: IMU_MB1.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size IMU_MB1.elf  |tee "IMU_MB1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  46384	    392	   3480	  50256	   c450	IMU_MB1.elf
+Finished building: IMU_MB1.elf.size
+ 
+13:36:27 **** Auto Build of configuration Debug for project IMU_MB1 ****
+make all 
+make: Nothing to be done for `all'.
+13:36:36 **** Incremental Build of configuration Debug for project IMU_MB1 ****
+make all 
+make: Nothing to be done for `all'.
+13:37:11 **** Incremental Build of configuration Debug for project IMU_MB1 ****
+make all 
+make: Nothing to be done for `all'.
+13:38:12 **** Incremental Build of configuration Debug for project IMU_MB0 ****
+make all 
+make: Nothing to be done for `all'.
+13:40:05 **** Incremental Build of configuration Debug for project IMU_MB0 ****
+make all 
+make: Nothing to be done for `all'.

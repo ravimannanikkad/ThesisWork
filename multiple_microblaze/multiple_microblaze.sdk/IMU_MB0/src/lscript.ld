@@ -18,7 +18,6 @@ _HEAP_SIZE = DEFINED(_HEAP_SIZE) ? _HEAP_SIZE : 0x800;
 MEMORY
 {
    MB_Sys0_microblaze_0_local_memory_ilmb_bram_if_cntlr_Mem_MB_Sys0_microblaze_0_local_memory_dlmb_bram_if_cntlr_Mem : ORIGIN = 0x50, LENGTH = 0xFFB0
-   newMemory1  : ORIGIN = 0x0, LENGTH = 0x0
 }
 
 /* Specify the default entry point to the program */

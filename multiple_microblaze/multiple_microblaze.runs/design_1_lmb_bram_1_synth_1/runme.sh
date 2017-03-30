@@ -20,7 +20,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='/home/ravi/vivado_projects/multiple_microblaze/multiple_microblaze.runs/design_1_lmb_bram_1_synth_1'
+HD_PWD='/home/ravi/ThesisWork/multiple_microblaze/multiple_microblaze.runs/design_1_lmb_bram_1_synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

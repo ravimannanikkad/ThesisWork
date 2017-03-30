@@ -1,11 +1,11 @@
 -- Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
 -- Tool Version: Vivado v.2016.3 (lin64) Build 1682563 Mon Oct 10 19:07:26 MDT 2016
--- Date        : Wed Mar 29 21:26:16 2017
+-- Date        : Thu Mar 30 15:50:25 2017
 -- Host        : ravi-ThinkPad-E560 running 64-bit Ubuntu 14.04.5 LTS
 -- Command     : write_vhdl -force -mode funcsim -rename_top design_1_auto_us_2 -prefix
---               design_1_auto_us_2_ design_1_auto_us_3_sim_netlist.vhdl
--- Design      : design_1_auto_us_3
+--               design_1_auto_us_2_ design_1_auto_us_0_sim_netlist.vhdl
+-- Design      : design_1_auto_us_0
 -- Purpose     : This VHDL netlist is a functional simulation representation of the design and should not be modified or
 --               synthesized. This netlist cannot be used for SDF annotated simulation.
 -- Device      : xc7z010clg400-1
@@ -1149,7 +1149,7 @@ entity design_1_auto_us_2 is
   attribute NotValidForBitStream : boolean;
   attribute NotValidForBitStream of design_1_auto_us_2 : entity is true;
   attribute CHECK_LICENSE_TYPE : string;
-  attribute CHECK_LICENSE_TYPE of design_1_auto_us_2 : entity is "design_1_auto_us_3,axi_dwidth_converter_v2_1_10_top,{}";
+  attribute CHECK_LICENSE_TYPE of design_1_auto_us_2 : entity is "design_1_auto_us_0,axi_dwidth_converter_v2_1_10_top,{}";
   attribute DowngradeIPIdentifiedWarnings : string;
   attribute DowngradeIPIdentifiedWarnings of design_1_auto_us_2 : entity is "yes";
   attribute X_CORE_INFO : string;
