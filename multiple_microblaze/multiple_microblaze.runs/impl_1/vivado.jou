@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:26 MDT 2016
+# IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+# Start of session at: Wed Mar 29 19:00:55 2017
+# Process ID: 400
+# Current directory: /home/ravi/vivado_projects/multiple_microblaze/multiple_microblaze.runs/impl_1
+# Command line: vivado -log design_1_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source design_1_wrapper.tcl -notrace
+# Log file: /home/ravi/vivado_projects/multiple_microblaze/multiple_microblaze.runs/impl_1/design_1_wrapper.vdi
+# Journal file: /home/ravi/vivado_projects/multiple_microblaze/multiple_microblaze.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source design_1_wrapper.tcl -notrace

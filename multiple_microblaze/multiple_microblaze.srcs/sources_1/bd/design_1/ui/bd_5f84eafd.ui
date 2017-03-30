@@ -1,0 +1,39 @@
+{
+   guistr: "# # String gsaved with Nlview 6.6.5b  2016-09-06 bk=1.3687 VDI=39 GEI=35 GUI=JA:1.6
+#  -string -flagsOSRD
+preplace port UART -pg 1 -y 320 -defaultsOSRD
+preplace port ARESETN -pg 1 -y 90 -defaultsOSRD
+preplace port Clk -pg 1 -y 380 -defaultsOSRD
+preplace port DEBUG -pg 1 -y 540 -defaultsOSRD
+preplace port S00_ARESETN -pg 1 -y 400 -defaultsOSRD
+preplace port IIC -pg 1 -y 170 -defaultsOSRD
+preplace port Reset -pg 1 -y 520 -defaultsOSRD
+preplace port SYS_Rst -pg 1 -y 630 -defaultsOSRD
+preplace inst axi_iic_0 -pg 1 -lvl 5 -y 190 -defaultsOSRD
+preplace inst microblaze_0_axi_periph -pg 1 -lvl 4 -y 150 -defaultsOSRD
+preplace inst microblaze_0_xlconcat -pg 1 -lvl 1 -y 470 -defaultsOSRD
+preplace inst microblaze_0_axi_intc -pg 1 -lvl 2 -y 420 -defaultsOSRD
+preplace inst axi_uartlite_0 -pg 1 -lvl 5 -y 330 -defaultsOSRD
+preplace inst microblaze_0 -pg 1 -lvl 3 -y 550 -defaultsOSRD
+preplace inst microblaze_0_local_memory -pg 1 -lvl 4 -y 560 -defaultsOSRD
+preplace netloc Conn1 1 0 3 NJ 540 NJ 540 NJ
+preplace netloc rst_clk_wiz_0_100M_bus_struct_reset 1 0 4 NJ 630 NJ 630 NJ 630 990J
+preplace netloc axi_uartlite_0_interrupt 1 0 6 30 640 NJ 640 NJ 640 NJ 640 NJ 640 1560
+preplace netloc microblaze_0_intr 1 1 1 230
+preplace netloc axi_iic_0_iic2intc_irpt 1 0 6 20 410 250J 530 500J 340 NJ 340 1320J 260 1560
+preplace netloc microblaze_0_Clk 1 0 5 NJ 380 260 520 510 470 1000 320 1310
+preplace netloc microblaze_0_interrupt 1 2 1 520
+preplace netloc microblaze_0_intc_axi 1 1 4 280 310 NJ 310 NJ 310 1280
+preplace netloc microblaze_0_ilmb_1 1 3 1 N
+preplace netloc microblaze_0_axi_dp 1 3 1 980
+preplace netloc microblaze_0_axi_periph_M01_AXI 1 4 1 1300
+preplace netloc rst_clk_wiz_0_100M_mb_reset 1 0 3 20J 530 240 580 NJ
+preplace netloc axi_uartlite_0_UART 1 5 1 NJ
+preplace netloc axi_iic_0_IIC 1 5 1 NJ
+preplace netloc microblaze_0_dlmb_1 1 3 1 N
+preplace netloc microblaze_0_axi_periph_M02_AXI 1 4 1 N
+preplace netloc rst_clk_wiz_0_100M_interconnect_aresetn 1 0 4 NJ 90 NJ 90 NJ 90 NJ
+preplace netloc rst_clk_wiz_0_100M_peripheral_aresetn 1 0 5 NJ 400 270 320 NJ 320 990 330 1290
+levelinfo -pg 1 0 130 390 750 1140 1440 1580 -top 0 -bot 650
+",
+}

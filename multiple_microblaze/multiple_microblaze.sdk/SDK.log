@@ -1,0 +1,231 @@
+19:04:42 INFO  : Registering command handlers for SDK TCF services
+19:04:43 INFO  : Launching XSCT server: xsct -n -interactive /home/ravi/vivado_projects/multiple_microblaze/multiple_microblaze.sdk/temp_xsdb_launch_script.tcl
+19:04:45 INFO  : XSCT server has started successfully.
+19:04:45 INFO  : Successfully done setting XSCT server connection channel  
+19:04:45 INFO  : Successfully done setting SDK workspace  
+19:04:45 INFO  : Processing command line option -hwspec /home/ravi/vivado_projects/multiple_microblaze/multiple_microblaze.sdk/design_1_wrapper.hdf.
+19:10:44 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:10:44 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279651688A" && level==0} -index 1' command is executed.
+19:10:46 INFO  : FPGA configured successfully with bitstream "/home/ravi/vivado_projects/multiple_microblaze/multiple_microblaze.sdk/design_1_wrapper_hw_platform_0/download.bit"
+19:11:44 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279651688A" && level==0} -index 1' command is executed.
+19:11:44 INFO  : 'fpga -state' command is executed.
+19:11:44 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:11:44 INFO  : Jtag cable 'Digilent Zybo 210279651688A' is selected.
+19:11:44 INFO  : 'jtag frequency' command is executed.
+19:11:44 INFO  : Context for processor 'MB_Sys0_microblaze_0' is selected.
+19:11:44 INFO  : Hardware design information is loaded from '/home/ravi/vivado_projects/multiple_microblaze/multiple_microblaze.sdk/design_1_wrapper_hw_platform_0/system.hdf'.
+19:11:44 INFO  : Context for processor 'MB_Sys0_microblaze_0' is selected.
+19:11:44 INFO  : Processor reset is completed for 'MB_Sys0_microblaze_0'.
+19:11:44 INFO  : Context for processor 'MB_Sys0_microblaze_0' is selected.
+19:11:45 INFO  : The application '/home/ravi/vivado_projects/multiple_microblaze/multiple_microblaze.sdk/IMU_MB0/Debug/IMU_MB0.elf' is downloaded to processor 'MB_Sys0_microblaze_0'.
+19:11:45 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Zybo 210279651688A"} -index 1
+loadhw /home/ravi/vivado_projects/multiple_microblaze/multiple_microblaze.sdk/design_1_wrapper_hw_platform_0/system.hdf
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Zybo 210279651688A"} -index 1
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Zybo 210279651688A"} -index 1
+dow /home/ravi/vivado_projects/multiple_microblaze/multiple_microblaze.sdk/IMU_MB0/Debug/IMU_MB0.elf
+----------------End of Script----------------
+
+19:11:45 INFO  : Memory regions updated for context MicroBlaze #0
+19:11:45 INFO  : Memory regions updated for context MicroBlaze #1
+19:11:45 INFO  : Memory regions updated for context MicroBlaze #2
+19:11:45 INFO  : Memory regions updated for context MicroBlaze Debug Module at USER2
+19:11:45 INFO  : Context for processor 'MB_Sys0_microblaze_0' is selected.
+19:11:45 INFO  : 'con' command is executed.
+19:11:45 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Zybo 210279651688A"} -index 1
+con
+----------------End of Script----------------
+
+19:11:45 INFO  : Launch script is exported to file '/home/ravi/vivado_projects/multiple_microblaze/multiple_microblaze.sdk/.sdk/launch_scripts/xilinx_c-c++_application_(system_debugger)/system_debugger_using_debug_imu_mb0.elf_on_local.tcl'
+19:43:10 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:43:11 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279651688A" && level==0} -index 1' command is executed.
+19:43:12 INFO  : FPGA configured successfully with bitstream "/home/ravi/vivado_projects/multiple_microblaze/multiple_microblaze.sdk/design_1_wrapper_hw_platform_0/download.bit"
+19:44:06 INFO  : Disconnected from the channel tcfchan#1.
+19:44:08 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279651688A" && level==0} -index 1' command is executed.
+19:44:08 INFO  : 'fpga -state' command is executed.
+19:44:08 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:44:08 INFO  : Jtag cable 'Digilent Zybo 210279651688A' is selected.
+19:44:08 INFO  : 'jtag frequency' command is executed.
+19:44:08 INFO  : Context for processor 'MB_Sys0_microblaze_0' is selected.
+19:44:08 INFO  : Hardware design information is loaded from '/home/ravi/vivado_projects/multiple_microblaze/multiple_microblaze.sdk/design_1_wrapper_hw_platform_0/system.hdf'.
+19:44:08 INFO  : Context for processor 'MB_Sys0_microblaze_0' is selected.
+19:44:08 INFO  : Processor reset is completed for 'MB_Sys0_microblaze_0'.
+19:44:08 INFO  : Context for processor 'MB_Sys0_microblaze_0' is selected.
+19:44:09 INFO  : The application '/home/ravi/vivado_projects/multiple_microblaze/multiple_microblaze.sdk/IMU_MB0/Debug/IMU_MB0.elf' is downloaded to processor 'MB_Sys0_microblaze_0'.
+19:44:09 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Zybo 210279651688A"} -index 1
+loadhw /home/ravi/vivado_projects/multiple_microblaze/multiple_microblaze.sdk/design_1_wrapper_hw_platform_0/system.hdf
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Zybo 210279651688A"} -index 1
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Zybo 210279651688A"} -index 1
+dow /home/ravi/vivado_projects/multiple_microblaze/multiple_microblaze.sdk/IMU_MB0/Debug/IMU_MB0.elf
+----------------End of Script----------------
+
+19:44:09 INFO  : Memory regions updated for context MicroBlaze #0
+19:44:09 INFO  : Memory regions updated for context MicroBlaze #1
+19:44:09 INFO  : Memory regions updated for context MicroBlaze #2
+19:44:09 INFO  : Memory regions updated for context MicroBlaze Debug Module at USER2
+19:44:09 INFO  : Context for processor 'MB_Sys0_microblaze_0' is selected.
+19:44:09 INFO  : 'con' command is executed.
+19:44:09 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Zybo 210279651688A"} -index 1
+con
+----------------End of Script----------------
+
+19:44:09 INFO  : Launch script is exported to file '/home/ravi/vivado_projects/multiple_microblaze/multiple_microblaze.sdk/.sdk/launch_scripts/xilinx_c-c++_application_(system_debugger)/system_debugger_using_debug_imu_mb0.elf_on_local.tcl'
+19:45:01 INFO  : Disconnected from the channel tcfchan#2.
+19:45:02 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279651688A" && level==0} -index 1' command is executed.
+19:45:02 INFO  : 'fpga -state' command is executed.
+19:45:02 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:45:02 INFO  : Jtag cable 'Digilent Zybo 210279651688A' is selected.
+19:45:02 INFO  : 'jtag frequency' command is executed.
+19:45:02 INFO  : Context for processor 'MB_Sys0_microblaze_0' is selected.
+19:45:02 INFO  : Hardware design information is loaded from '/home/ravi/vivado_projects/multiple_microblaze/multiple_microblaze.sdk/design_1_wrapper_hw_platform_0/system.hdf'.
+19:45:02 INFO  : Context for processor 'MB_Sys0_microblaze_0' is selected.
+19:45:02 INFO  : Processor reset is completed for 'MB_Sys0_microblaze_0'.
+19:45:02 INFO  : Context for processor 'MB_Sys0_microblaze_0' is selected.
+19:45:03 INFO  : The application '/home/ravi/vivado_projects/multiple_microblaze/multiple_microblaze.sdk/IMU_MB0/Debug/IMU_MB0.elf' is downloaded to processor 'MB_Sys0_microblaze_0'.
+19:45:03 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Zybo 210279651688A"} -index 1
+loadhw /home/ravi/vivado_projects/multiple_microblaze/multiple_microblaze.sdk/design_1_wrapper_hw_platform_0/system.hdf
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Zybo 210279651688A"} -index 1
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Zybo 210279651688A"} -index 1
+dow /home/ravi/vivado_projects/multiple_microblaze/multiple_microblaze.sdk/IMU_MB0/Debug/IMU_MB0.elf
+----------------End of Script----------------
+
+19:45:03 INFO  : Memory regions updated for context MicroBlaze #0
+19:45:03 INFO  : Memory regions updated for context MicroBlaze #1
+19:45:03 INFO  : Memory regions updated for context MicroBlaze #2
+19:45:03 INFO  : Memory regions updated for context MicroBlaze Debug Module at USER2
+19:45:03 INFO  : Context for processor 'MB_Sys0_microblaze_0' is selected.
+19:45:03 INFO  : 'con' command is executed.
+19:45:03 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Zybo 210279651688A"} -index 1
+con
+----------------End of Script----------------
+
+19:45:03 INFO  : Launch script is exported to file '/home/ravi/vivado_projects/multiple_microblaze/multiple_microblaze.sdk/.sdk/launch_scripts/xilinx_c-c++_application_(system_debugger)/system_debugger_using_debug_imu_mb0.elf_on_local.tcl'
+19:45:49 INFO  : Disconnected from the channel tcfchan#3.
+19:45:50 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279651688A" && level==0} -index 1' command is executed.
+19:45:50 INFO  : 'fpga -state' command is executed.
+19:45:50 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:45:50 INFO  : Jtag cable 'Digilent Zybo 210279651688A' is selected.
+19:45:50 INFO  : 'jtag frequency' command is executed.
+19:45:50 INFO  : Context for processor 'MB_Sys0_microblaze_0' is selected.
+19:45:51 INFO  : Hardware design information is loaded from '/home/ravi/vivado_projects/multiple_microblaze/multiple_microblaze.sdk/design_1_wrapper_hw_platform_0/system.hdf'.
+19:45:51 INFO  : Context for processor 'MB_Sys0_microblaze_0' is selected.
+19:45:51 INFO  : Processor reset is completed for 'MB_Sys0_microblaze_0'.
+19:45:51 INFO  : Context for processor 'MB_Sys0_microblaze_0' is selected.
+19:45:51 INFO  : The application '/home/ravi/vivado_projects/multiple_microblaze/multiple_microblaze.sdk/IMU_MB0/Debug/IMU_MB0.elf' is downloaded to processor 'MB_Sys0_microblaze_0'.
+19:45:51 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Zybo 210279651688A"} -index 1
+loadhw /home/ravi/vivado_projects/multiple_microblaze/multiple_microblaze.sdk/design_1_wrapper_hw_platform_0/system.hdf
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Zybo 210279651688A"} -index 1
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Zybo 210279651688A"} -index 1
+dow /home/ravi/vivado_projects/multiple_microblaze/multiple_microblaze.sdk/IMU_MB0/Debug/IMU_MB0.elf
+----------------End of Script----------------
+
+19:45:51 INFO  : Memory regions updated for context MicroBlaze #0
+19:45:51 INFO  : Memory regions updated for context MicroBlaze #1
+19:45:51 INFO  : Memory regions updated for context MicroBlaze #2
+19:45:51 INFO  : Memory regions updated for context MicroBlaze Debug Module at USER2
+19:45:51 INFO  : Context for processor 'MB_Sys0_microblaze_0' is selected.
+19:45:51 INFO  : 'con' command is executed.
+19:45:51 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Zybo 210279651688A"} -index 1
+con
+----------------End of Script----------------
+
+19:45:51 INFO  : Launch script is exported to file '/home/ravi/vivado_projects/multiple_microblaze/multiple_microblaze.sdk/.sdk/launch_scripts/xilinx_c-c++_application_(system_debugger)/system_debugger_using_debug_imu_mb0.elf_on_local.tcl'
+19:46:59 INFO  : Disconnected from the channel tcfchan#4.
+19:47:00 INFO  : Processor reset is completed for MB_Sys1_microblaze_1
+19:47:00 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Cannot perform the Debug Command, Current Processor State is "Running"
+
+	at com.xilinx.sdk.targetmanager.internal.TM.downloadELF(TM.java:686)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(AppRunner.java:129)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:637)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+19:47:32 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279651688A" && level==0} -index 1' command is executed.
+19:47:32 INFO  : 'fpga -state' command is executed.
+19:47:32 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:47:32 INFO  : Jtag cable 'Digilent Zybo 210279651688A' is selected.
+19:47:32 INFO  : 'jtag frequency' command is executed.
+19:47:32 INFO  : Context for processor 'MB_Sys0_microblaze_0' is selected.
+19:47:32 INFO  : Hardware design information is loaded from '/home/ravi/vivado_projects/multiple_microblaze/multiple_microblaze.sdk/design_1_wrapper_hw_platform_0/system.hdf'.
+19:47:32 INFO  : Context for processor 'MB_Sys1_microblaze_1' is selected.
+19:47:32 INFO  : Processor reset is completed for 'MB_Sys1_microblaze_1'.
+19:47:32 INFO  : Context for processor 'MB_Sys1_microblaze_1' is selected.
+19:47:33 INFO  : The application '/home/ravi/vivado_projects/multiple_microblaze/multiple_microblaze.sdk/IMU_MB1/Debug/IMU_MB1.elf' is downloaded to processor 'MB_Sys1_microblaze_1'.
+19:47:33 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Zybo 210279651688A"} -index 1
+loadhw /home/ravi/vivado_projects/multiple_microblaze/multiple_microblaze.sdk/design_1_wrapper_hw_platform_0/system.hdf
+targets -set -nocase -filter {name =~ "microblaze*#1" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Zybo 210279651688A"} -index 1
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#1" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Zybo 210279651688A"} -index 1
+dow /home/ravi/vivado_projects/multiple_microblaze/multiple_microblaze.sdk/IMU_MB1/Debug/IMU_MB1.elf
+----------------End of Script----------------
+
+19:47:33 INFO  : Memory regions updated for context MicroBlaze #0
+19:47:33 INFO  : Memory regions updated for context MicroBlaze #1
+19:47:33 INFO  : Memory regions updated for context MicroBlaze #2
+19:47:33 INFO  : Memory regions updated for context MicroBlaze Debug Module at USER2
+19:47:33 INFO  : Context for processor 'MB_Sys1_microblaze_1' is selected.
+19:47:33 INFO  : 'con' command is executed.
+19:47:33 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#1" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Zybo 210279651688A"} -index 1
+con
+----------------End of Script----------------
+
+19:47:33 INFO  : Launch script is exported to file '/home/ravi/vivado_projects/multiple_microblaze/multiple_microblaze.sdk/.sdk/launch_scripts/xilinx_c-c++_application_(system_debugger)/system_debugger_using_debug_imu_mb1.elf_on_local.tcl'
+19:47:59 INFO  : Disconnected from the channel tcfchan#5.
+19:48:00 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279651688A" && level==0} -index 1' command is executed.
+19:48:00 INFO  : 'fpga -state' command is executed.
+19:48:00 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:48:00 INFO  : Jtag cable 'Digilent Zybo 210279651688A' is selected.
+19:48:00 INFO  : 'jtag frequency' command is executed.
+19:48:00 INFO  : Context for processor 'MB_Sys0_microblaze_0' is selected.
+19:48:01 INFO  : Hardware design information is loaded from '/home/ravi/vivado_projects/multiple_microblaze/multiple_microblaze.sdk/design_1_wrapper_hw_platform_0/system.hdf'.
+19:48:01 INFO  : Context for processor 'MB_Sys2_microblaze_2' is selected.
+19:48:01 INFO  : Processor reset is completed for 'MB_Sys2_microblaze_2'.
+19:48:01 INFO  : Context for processor 'MB_Sys2_microblaze_2' is selected.
+19:48:01 INFO  : The application '/home/ravi/vivado_projects/multiple_microblaze/multiple_microblaze.sdk/IMU_MB2/Debug/IMU_MB2.elf' is downloaded to processor 'MB_Sys2_microblaze_2'.
+19:48:01 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Zybo 210279651688A"} -index 1
+loadhw /home/ravi/vivado_projects/multiple_microblaze/multiple_microblaze.sdk/design_1_wrapper_hw_platform_0/system.hdf
+targets -set -nocase -filter {name =~ "microblaze*#2" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Zybo 210279651688A"} -index 1
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#2" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Zybo 210279651688A"} -index 1
+dow /home/ravi/vivado_projects/multiple_microblaze/multiple_microblaze.sdk/IMU_MB2/Debug/IMU_MB2.elf
+----------------End of Script----------------
+
+19:48:01 INFO  : Memory regions updated for context MicroBlaze #0
+19:48:01 INFO  : Memory regions updated for context MicroBlaze #1
+19:48:01 INFO  : Memory regions updated for context MicroBlaze #2
+19:48:01 INFO  : Memory regions updated for context MicroBlaze Debug Module at USER2
+19:48:01 INFO  : Context for processor 'MB_Sys2_microblaze_2' is selected.
+19:48:01 INFO  : 'con' command is executed.
+19:48:01 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#2" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Zybo 210279651688A"} -index 1
+con
+----------------End of Script----------------
+
+19:48:01 INFO  : Launch script is exported to file '/home/ravi/vivado_projects/multiple_microblaze/multiple_microblaze.sdk/.sdk/launch_scripts/xilinx_c-c++_application_(system_debugger)/system_debugger_using_debug_imu_mb2.elf_on_local.tcl'
+21:54:41 INFO  : Disconnected from the channel tcfchan#6.
+21:54:44 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
